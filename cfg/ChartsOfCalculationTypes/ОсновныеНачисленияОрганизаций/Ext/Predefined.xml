@@ -1,27 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.9">
-	<Item id="6fd976ab-4383-486d-914e-365e8e249948">
-		<Name>УдалитьПростойОкладПоДням</Name>
-		<Code>00062</Code>
-		<Description>(Не использовать) Оплата простоя от оклада по дням</Description>
+	<Item id="35c7a5dd-d8e9-4aa0-8378-2a7e501d846a">
+		<Name>ОкладПоДням</Name>
+		<Code>00001</Code>
+		<Description>01. Оклад</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="aba52302-0014-4547-bc59-ca3789fe457d">
-		<Name>УдалитьПростойОкладПоЧасам</Name>
-		<Code>00063</Code>
-		<Description>(Не использовать) Оплата простоя от оклада по часам</Description>
+	<Item id="a00e5864-3b44-42b3-b0f8-06af3dd11f38">
+		<Name>МедицинскаяСтраховка</Name>
+		<Code>00008</Code>
+		<Description>08. Медицинская страховка</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="538b8a28-bf3e-43f0-868d-75171f6493e3">
-		<Name>УдалитьПростойТарифДневной</Name>
-		<Code>00064</Code>
-		<Description>(Не использовать) Оплата простоя по дневному тарифу</Description>
+	<Item id="7b1ea25b-d175-496f-8148-e7b79d4ba1a0">
+		<Name>ТорговыйБонусЕжемесячный</Name>
+		<Code>00012</Code>
+		<Description>12. Торговый бонус ежемесячный</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="f3c417f3-b2f7-40d0-a1f3-974923e0ee64">
-		<Name>АвторскоеВознаграждение</Name>
-		<Code>00057</Code>
-		<Description>Авторское вознаграждение</Description>
+	<Item id="f5645e3c-3b43-4ae6-8b96-e1c7698209fa">
+		<Name>ТорговыйБонусГодовой</Name>
+		<Code>00013</Code>
+		<Description>13. Торговый бонус годовой</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="3f81d59c-abcc-45d1-bcfd-261c079e6399">
+		<Name>АдминистративныйБонусГодовой</Name>
+		<Code>00014</Code>
+		<Description>14. Административный бонус годовой</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="bd3ecb7c-ec8d-4801-86e4-da89445ad78c">
+		<Name>РезервыОтпусков</Name>
+		<Code>00029</Code>
+		<Description>30. Резерви відпусток</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
 	<Item id="8ebc72e5-b668-4617-a2b0-9a22ac09c20e">
@@ -44,7 +56,7 @@
 	</Item>
 	<Item id="158333c2-68be-4c15-8122-55c99be4e207">
 		<Name>ВыслугаЛетЕжемесячно</Name>
-		<Code>00005</Code>
+		<Code>00007</Code>
 		<Description>Выслуга лет ежемесячно</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
@@ -62,13 +74,13 @@
 	</Item>
 	<Item id="8b052a0e-19d9-496b-a02d-0c31dce47637">
 		<Name>ДивидендыАкционеров</Name>
-		<Code>00052</Code>
+		<Code>00049</Code>
 		<Description>Дивиденды акционеров</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
 	<Item id="b66f025f-2042-40b9-a247-a65b6259642f">
 		<Name>ДивидендыРаботников</Name>
-		<Code>00051</Code>
+		<Code>00050</Code>
 		<Description>Дивиденды работников</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
@@ -90,7 +102,7 @@
 		<Description>Договор подряда (для СПД)</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="9140bdf7-30c9-4f65-9383-dfae2e42037b">
+	<Item id="56257e34-83b4-4515-979a-297f6f2b87ee">
 		<Name>ДоплатаДоМЗП</Name>
 		<Code>00095</Code>
 		<Description>Доплата до МЗП</Description>
@@ -104,7 +116,7 @@
 	</Item>
 	<Item id="21b63251-0600-43ab-afb5-b190081c392a">
 		<Name>ДоплатаЗаВечерниеЧасы</Name>
-		<Code>00014</Code>
+		<Code>00094</Code>
 		<Description>Доплата за вечерние часы</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
@@ -114,10 +126,10 @@
 		<Description>Доплата за ночные часы</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="f5645e3c-3b43-4ae6-8b96-e1c7698209fa">
+	<Item id="5c8afafd-9003-4db1-9ddb-6a3e03321080">
 		<Name>ДоплатаЗаПраздничныеИВыходные</Name>
-		<Code>00013</Code>
-		<Description>Доплата за работу в праздники и выходные</Description>
+		<Code>00016</Code>
+		<Description>Доплата за праздничные и выходные</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
 	<Item id="7b7bddfb-c235-4ceb-9953-be2a5ec447af">
@@ -186,12 +198,6 @@
 		<Description>Месячная</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="35c7a5dd-d8e9-4aa0-8378-2a7e501d846a">
-		<Name>ОкладПоДням</Name>
-		<Code>00001</Code>
-		<Description>Оклад по дням</Description>
-		<ActionPeriodIsBase>false</ActionPeriodIsBase>
-	</Item>
 	<Item id="537ff7ed-5e51-48d1-bf5e-4f680cb3e1b7">
 		<Name>ОкладПоЧасам</Name>
 		<Code>00002</Code>
@@ -206,7 +212,7 @@
 	</Item>
 	<Item id="5470f15f-ac51-4986-b9b8-110c90650815">
 		<Name>ОплатаПоСреднемуБЛ</Name>
-		<Code>00021</Code>
+		<Code>00020</Code>
 		<Description>Оплата больничных листов</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
@@ -216,13 +222,13 @@
 		<Description>Оплата больничных листов (первые 5 дней)</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="5f637123-168c-4bed-b33e-c88e4fc3d509">
+	<Item id="812aa946-4604-4842-b008-26d194bc3496">
 		<Name>ОплатаПосреднемуМобОрганизации</Name>
 		<Code>00094</Code>
 		<Description>Оплата мобилизованным (за счет организации)</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="7c21ada3-5050-4526-a0e5-abe2b6ae4bf9">
+	<Item id="278553f8-dfc1-4ae3-8acd-505e72553f86">
 		<Name>ОплатаПоСреднемуМоб</Name>
 		<Code>00093</Code>
 		<Description>Оплата мобилизованным (компенсация)</Description>
@@ -270,10 +276,10 @@
 		<Description>Оплата почасового простоя (по средней)</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="7b1ea25b-d175-496f-8148-e7b79d4ba1a0">
+	<Item id="ae0088a6-2bc9-49ed-978a-b57af8204c18">
 		<Name>ОплатаПраздничныхИВыходных</Name>
-		<Code>00012</Code>
-		<Description>Оплата праздничных и выходных дней</Description>
+		<Code>00009</Code>
+		<Description>Оплата праздничных и выходных</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
 	<Item id="2c0ad928-b31a-4148-828d-e1caf8133062">

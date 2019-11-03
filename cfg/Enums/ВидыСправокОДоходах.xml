@@ -138,6 +138,30 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="33a5c3a0-fa28-4626-a5fe-867e28ce731f">
+				<Properties>
+					<Name>БезработицаСОграничениями</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Для расчета выплат по безработице с ограничениями</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2c95b88a-008c-4fa0-9c12-cf36b8cdd640">
+				<Properties>
+					<Name>СернаБанк</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Серна - О доходах для декларации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="5ffd4891-1132-4faa-8718-7044cca7ea42">
 				<Properties>
 					<Name>Соцстрах</Name>

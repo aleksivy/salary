@@ -72,6 +72,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.УдержанияРаботниковОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ВзаиморасчетыСРаботникамиОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ВзносыВФонды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СернаДниОтпуска</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ОсновныеНачисленияРаботниковОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.УдалитьДополнительныеНачисленияРаботниковОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.УдалитьФОТДляОтчетаПоТруду</xr:Item>

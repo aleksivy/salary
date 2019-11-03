@@ -321,6 +321,7 @@
 			<c>
 				<c>
 					<f>30</f>
+					<parameter>Валюта</parameter>
 				</c>
 			</c>
 			<c>
@@ -900,6 +901,7 @@
 		<font>5</font>
 		<width>94</width>
 		<verticalAlignment>Top</verticalAlignment>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>5</font>

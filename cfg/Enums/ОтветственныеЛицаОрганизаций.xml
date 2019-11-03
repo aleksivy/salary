@@ -58,6 +58,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="f40974df-1126-4ad2-ba5e-36cc7e5154bb">
+				<Properties>
+					<Name>ФинДиректор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Директор  фінансовий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="54f1db0d-9f3a-4e28-9189-cf187221efcc">
 				<Properties>
 					<Name>ГлавныйБухгалтер</Name>
@@ -69,6 +81,18 @@
 						<v8:item>
 							<v8:lang>uk</v8:lang>
 							<v8:content>Головний бухгалтер</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1121ee40-6651-4ce7-86c6-4584660a4475">
+				<Properties>
+					<Name>ЗамГлавБух</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заступник головного бухгалтера</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

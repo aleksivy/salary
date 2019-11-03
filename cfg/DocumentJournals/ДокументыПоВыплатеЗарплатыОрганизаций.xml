@@ -38,6 +38,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходныйКассовыйОрдер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежноеПоручениеИсходящее</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводСведенийОБанковскихКарточкахРаботников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежнаяВедомостьДляБанков</xr:Item>
 			</RegisteredDocuments>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ListPresentation/>
@@ -67,6 +68,7 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежноеПоручениеИсходящее.Attribute.Организация</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВводСведенийОБанковскихКарточкахРаботников.Attribute.Организация</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходныйКассовыйОрдер.Attribute.Организация</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежнаяВедомостьДляБанков.Attribute.Организация</xr:Item>
 					</References>
 				</Properties>
 			</Column>
@@ -88,6 +90,7 @@
 					<References>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗарплатаКВыплатеОрганизаций.Attribute.КраткийСоставДокумента</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВводСведенийОБанковскихКарточкахРаботников.Attribute.КраткийСоставДокумента</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежнаяВедомостьДляБанков.Attribute.КраткийСоставДокумента</xr:Item>
 					</References>
 				</Properties>
 			</Column>
@@ -113,6 +116,7 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежноеПоручениеИсходящее.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВводСведенийОБанковскихКарточкахРаботников.Attribute.Ответственный</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходныйКассовыйОрдер.Attribute.Ответственный</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежнаяВедомостьДляБанков.Attribute.Ответственный</xr:Item>
 					</References>
 				</Properties>
 			</Column>
@@ -138,6 +142,7 @@
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежноеПоручениеИсходящее.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ВводСведенийОБанковскихКарточкахРаботников.Attribute.Комментарий</xr:Item>
 						<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходныйКассовыйОрдер.Attribute.Комментарий</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПлатежнаяВедомостьДляБанков.Attribute.Комментарий</xr:Item>
 					</References>
 				</Properties>
 			</Column>

@@ -125,10 +125,6 @@
 		<AutoRecord>Allow</AutoRecord>
 	</Item>
 	<Item>
-		<Metadata>ChartOfAccounts.Налоговый</Metadata>
-		<AutoRecord>Allow</AutoRecord>
-	</Item>
-	<Item>
 		<Metadata>Catalog.Мероприятия</Metadata>
 		<AutoRecord>Allow</AutoRecord>
 	</Item>

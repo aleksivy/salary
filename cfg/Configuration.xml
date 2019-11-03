@@ -224,6 +224,7 @@
 			<Subsystem>_УниверсальныеМеханизмы</Subsystem>
 			<Subsystem>УправлениеПерсоналом</Subsystem>
 			<Subsystem>УниверсальныеМеханизмы</Subsystem>
+			<Subsystem>ГГУ</Subsystem>
 			<StyleItem>РамкаЭпицентра</StyleItem>
 			<StyleItem>ТекстВторостепеннойНадписи</StyleItem>
 			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
@@ -712,6 +713,8 @@
 			<CommonPicture>УчебныйПлан32</CommonPicture>
 			<CommonPicture>УчетЗарплатыАктивная</CommonPicture>
 			<CommonPicture>УчетЗарплатыНеаткивная</CommonPicture>
+			<CommonPicture>ЗначокНастройкаПараметровУчета16</CommonPicture>
+			<CommonPicture>РезультатПроведения</CommonPicture>
 			<CommonPicture>УчетнаяЗапись</CommonPicture>
 			<CommonPicture>ФизическиеЛица</CommonPicture>
 			<CommonPicture>ФизическиеЛица32</CommonPicture>
@@ -786,6 +789,8 @@
 			<Role>УдалитьКадровикРегламентированныхДанныхСОграничениемПравДоступа</Role>
 			<Role>УдалитьМенеджерПоНаборуПерсоналаСОграничениемПравДоступа</Role>
 			<Role>УдалитьРасчетчикРегламентированнойЗарплатыСОграничениемПравДоступа</Role>
+			<Role>гауПолныеПраваБезКадров</Role>
+			<Role>гауКадровик</Role>
 			<CommonTemplate>ЗаголовокТиповогоОтчета</CommonTemplate>
 			<CommonTemplate>КО1</CommonTemplate>
 			<CommonTemplate>КО1ВБланк</CommonTemplate>
@@ -854,6 +859,7 @@
 			<CommonModule>УправлениеСоединениямиИБ</CommonModule>
 			<CommonModule>УправлениеЭлектроннойПочтой</CommonModule>
 			<CommonModule>ФормированиеПечатныхФорм</CommonModule>
+			<CommonModule>Серна</CommonModule>
 			<ExchangePlan>Полный</ExchangePlan>
 			<EventSubscription>ПриУстановкеНовогоКодаПВХ</EventSubscription>
 			<EventSubscription>ПриУстановкеНовогоКодаСправочника</EventSubscription>
@@ -863,6 +869,7 @@
 			<EventSubscription>ПередЗаписьюРегистраНакопленияДатаЗапретаРедактирования</EventSubscription>
 			<EventSubscription>ПередЗаписьюРегистраРасчетаДатаЗапретаРедактирования</EventSubscription>
 			<EventSubscription>ПередЗаписьюРегистраСведенийДатаЗапретаРедактирования</EventSubscription>
+			<EventSubscription>ОбработкаПроведенияРучныеКорректировкиНачислений</EventSubscription>
 			<ScheduledJob>ЗаданиеАвтономноеРешение</ScheduledJob>
 			<ScheduledJob>ОбновлениеИндексаПолнотекстовогоПоиска</ScheduledJob>
 			<ScheduledJob>ПересчетИтоговРегистровНакопления</ScheduledJob>
@@ -898,6 +905,9 @@
 			<Constant>СтатусОбновленияКонфигурации</Constant>
 			<Constant>УчетнаяЗаписьНаборПерсонала</Constant>
 			<Constant>ШаблоныТелефонныхНомеров</Constant>
+			<Constant>ОсновнаяОрганизация</Constant>
+			<Constant>ггуУкрСибБанкОператор</Constant>
+			<Constant>КоличествоДнейОтпускаВГод</Constant>
 			<CommonForm>ДиалогВопрос</CommonForm>
 			<CommonForm>ДиалогРегламентногоЗадания</CommonForm>
 			<CommonForm>ЗавершениеРаботыПользователей</CommonForm>
@@ -1152,6 +1162,12 @@
 			<Document>УчастиеВМероприятиях</Document>
 			<Document>УчетЗатратНаИсточникиПерсонала</Document>
 			<Document>ЭлектронноеПисьмо</Document>
+			<Document>ПлатежнаяВедомостьДляБанков</Document>
+			<Document>ДниОтпускаОрганизаций</Document>
+			<Document>ПредварительныеНачисления</Document>
+			<Document>БухгалтерскаяСправка</Document>
+			<Document>ОтражениеЗарплатыМСФО</Document>
+			<Document>ЗакрытиеМесяцаМСФО</Document>
 			<Sequence>КадровыеПриказы</Sequence>
 			<Sequence>КадровыеПриказыОрганизации</Sequence>
 			<DocumentJournal>ДокументыПоВыплатеЗарплатыОрганизаций</DocumentJournal>
@@ -1415,6 +1431,8 @@
 			<Report>ШтатнаяРасстановкаОрганизаций</Report>
 			<Report>ШтатноеРасписаниеОрганизаций</Report>
 			<Report>ЭффективностьЗатратНаПривлечение</Report>
+			<Report>УниверсальныйБухгалтерскийОтчет</Report>
+			<Report>ЛичнаяКарточкаГленкор</Report>
 			<DataProcessor>АвтоОбменДанными</DataProcessor>
 			<DataProcessor>АвтоПолучениеОтправкаЭлектронныхПисем</DataProcessor>
 			<DataProcessor>АдреснаяКнига</DataProcessor>
@@ -1481,6 +1499,9 @@
 			<DataProcessor>ФормированиеПлатежныхДокументовПоВзносамВФонды</DataProcessor>
 			<DataProcessor>ФормированиеСпискаРаботников</DataProcessor>
 			<DataProcessor>ЭкспортИмпортКонтактныхДанныхОбъектов</DataProcessor>
+			<DataProcessor>КорректировкаДвижений</DataProcessor>
+			<DataProcessor>РасчетныеЛисткиОрганизацийPlusLotus</DataProcessor>
+			<DataProcessor>гауРассылкаОРучныхКорректировкахНачислений</DataProcessor>
 			<InformationRegister>АвансыРаботникам</InformationRegister>
 			<InformationRegister>АвансыРаботникамОрганизаций</InformationRegister>
 			<InformationRegister>АрхивДанныхРегламентированнойОтчетности</InformationRegister>
@@ -1625,6 +1646,10 @@
 			<InformationRegister>ШкалаПочтовыхСборов</InformationRegister>
 			<InformationRegister>ШкалаСтавокНалогов</InformationRegister>
 			<InformationRegister>ШтатноеРасписаниеОрганизаций</InformationRegister>
+			<InformationRegister>КурсыВалютДляЗакрытия</InformationRegister>
+			<InformationRegister>СернаНачисления</InformationRegister>
+			<InformationRegister>ггуСредняяЗарплата</InformationRegister>
+			<InformationRegister>ггуНормыОтпусков</InformationRegister>
 			<AccumulationRegister>ВзаиморасчетыПоВзносамВФонды</AccumulationRegister>
 			<AccumulationRegister>ВзаиморасчетыПоНачислениямЗаСчетФСС</AccumulationRegister>
 			<AccumulationRegister>ВзаиморасчетыПоНДФЛ</AccumulationRegister>
@@ -1646,14 +1671,16 @@
 			<AccumulationRegister>УдалитьФОТДляОтчетаПоТруду</AccumulationRegister>
 			<AccumulationRegister>ФактическаяВыработкаРаботников</AccumulationRegister>
 			<AccumulationRegister>ФактическаяВыработкаРаботниковОрганизаций</AccumulationRegister>
+			<AccumulationRegister>СернаДниОтпуска</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ВидыСубконтоХозрасчетные</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ВопросыДляАнкетирования</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>НазначенияСвойствКатегорийОбъектов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>НастройкиПользователей</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ПраваПользователей</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СвойстваОбъектов</ChartOfCharacteristicTypes>
-			<ChartOfAccounts>Налоговый</ChartOfAccounts>
 			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
+			<ChartOfAccounts>Налоговый</ChartOfAccounts>
+			<AccountingRegister>Хозрасчетный</AccountingRegister>
 			<ChartOfCalculationTypes>ВзносыВФонды</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ОсновныеНачисленияОрганизаций</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>ОтражениеЗарплатыОрганизаций</ChartOfCalculationTypes>

@@ -38,7 +38,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УчетОсновногоЗаработкаОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УчетОсновногоЗаработкаПодразделенияОрганизации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.Налоговый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">0c4e9032-d9fd-4149-96b9-bb4d8a92679c</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

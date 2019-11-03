@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.9">
+	<Item id="981d7862-fbd7-46a7-993a-527d3b598efe">
+		<Name>УдержаниеСторно</Name>
+		<Code>00013</Code>
+		<Description>03. Удержания сторно</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
 	<Item id="ac6da75f-35e6-492a-85b3-b19ea97eb9f6">
 		<Name>АлиментыПроцентом</Name>
 		<Code>00001</Code>
@@ -24,7 +30,7 @@
 		<Description>Алименты фикс. суммой до предела</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>
-	<Item id="db534142-ddef-4600-96df-b216e3cd7c28">
+	<Item id="fc1d3ac6-a88d-4c17-9dd7-b8454434d3f4">
 		<Name>ИндексацияАлиментов</Name>
 		<Code>00010</Code>
 		<Description>Индексация алиментов</Description>
@@ -32,7 +38,7 @@
 	</Item>
 	<Item id="c9db4d57-736f-4d31-a59f-19042801039e">
 		<Name>ПочтовыйСбор</Name>
-		<Code>00009</Code>
+		<Code>00011</Code>
 		<Description>Почтовый сбор</Description>
 		<ActionPeriodIsBase>false</ActionPeriodIsBase>
 	</Item>

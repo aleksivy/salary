@@ -73,7 +73,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УдалитьНамеченныеСобытияПоПерсоналуОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НамеченныеСобытияПоПерсоналу</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПериодыРаботыРаботниковОрганизацийПоСовместительству</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПлановыеНачисленияРаботниковОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СостояниеРаботниковНаИспытательномСроке</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РаботникиОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВзносыВФондыРаботниковОрганизаций</xr:Item>

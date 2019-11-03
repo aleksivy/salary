@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="06aa0a36-a030-43a4-999b-4c28d8f1aee6">
+		<Name>МедицинскоеСтрахование</Name>
+		<Code>100000448</Code>
+		<Description>медичне страхування</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc4b989d-1a57-42e0-ad44-d69e6e2cf926">
+		<Name>Зарплата</Name>
+		<Code>100000444</Code>
+		<Description>оплата праці (1.заробітна плата)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5695f350-da2c-4e60-b084-3b8c582952ce">
+		<Name>ПенсионныйФонд</Name>
+		<Code>100000441</Code>
+		<Description>пенсійний фонд</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f333e078-4251-458c-9aa4-faff9063d5ae">
+		<Name>РезервыОтпусков</Name>
+		<Code>100000452</Code>
+		<Description>резерви відпусток</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b6504b71-2368-45fc-a521-81eb2f7eb8ea">
+		<Name>ТорговыйБонусЕжемесячный</Name>
+		<Code>100000665</Code>
+		<Description>Торговый бонус ежемесячный</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

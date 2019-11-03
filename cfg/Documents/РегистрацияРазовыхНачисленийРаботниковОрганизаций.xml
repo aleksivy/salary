@@ -47,6 +47,7 @@
 			<Characteristics/>
 			<BasedOn>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоощрениеВзысканиеОрганизаций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПредварительныеНачисления</xr:Item>
 			</BasedOn>
 			<InputByString>
 				<xr:Field>Document.РегистрацияРазовыхНачисленийРаботниковОрганизаций.StandardAttribute.Number</xr:Field>
@@ -418,6 +419,8 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:DocumentRef.ПоощрениеВзысканиеОрганизаций</v8:Type>
+						<v8:Type>cfg:DocumentRef.КомандировкиОрганизаций</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПредварительныеНачисления</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -3148,6 +3151,8 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Template>ПечатьПремий</Template>
+			<Template>ПечатьПремийАТ</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

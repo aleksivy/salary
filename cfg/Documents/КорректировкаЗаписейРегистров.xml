@@ -100,6 +100,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СостояниеРаботников</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.ВзносыВФонды</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КадровыйПлан</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СернаДниОтпуска</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Работники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОбъектыЭлектронныхПисемИСобытий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НадбавкиПоШтатномуРасписаниюОрганизаций</xr:Item>

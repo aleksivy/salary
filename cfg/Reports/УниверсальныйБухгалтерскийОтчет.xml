@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Report uuid="a40731bd-f888-46ce-a956-7c0310f0d169">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.УниверсальныйБухгалтерскийОтчет" category="Object">
+				<xr:TypeId>c06dcf96-bff7-4c93-bd05-4f338b677167</xr:TypeId>
+				<xr:ValueId>b01d9ac2-2d6b-418f-8c0b-42d044a6542b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.УниверсальныйБухгалтерскийОтчет" category="Manager">
+				<xr:TypeId>8e0db488-c2ab-495f-aad6-360d64a3d3a7</xr:TypeId>
+				<xr:ValueId>88b65496-ca0f-469c-a20a-312edbf0359f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УниверсальныйБухгалтерскийОтчет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Универсальный бухгалтерский отчет</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Універсальний бухгалтерський звіт</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<DefaultForm>Report.УниверсальныйБухгалтерскийОтчет.Form.ГлавнаяФорма</DefaultForm>
+			<AuxiliaryForm/>
+			<MainDataCompositionSchema/>
+			<DefaultSettingsForm/>
+			<AuxiliarySettingsForm/>
+			<DefaultVariantForm/>
+			<VariantsStorage/>
+			<SettingsStorage/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаНастройкаПоСубконто</Form>
+			<Form>ФормаНастройкиПанелиПользователя</Form>
+			<Form>ФормаВыбораДоступногоПоляКомпоновщикаНастроек</Form>
+			<Form>ГлавнаяФорма</Form>
+			<Form>ОборотноСальдоваяВедомость</Form>
+			<Form>ОборотноСальдоваяВедомостьПоСчету</Form>
+			<Form>КарточкаСчета</Form>
+			<Form>ОтчетПоПроводкам</Form>
+			<Form>АнализСчета</Form>
+			<Form>СводныеПроводки</Form>
+			<Form>ОборотыСчета</Form>
+			<Form>ОборотыМеждуСубконто</Form>
+			<Form>КарточкаСубконто</Form>
+			<Form>АнализСубконто</Form>
+			<Template>ОбщиеОбластиСтандартногоОтчета</Template>
+			<Template>МакетОформленияОтчетовЗеленый</Template>
+			<Template>МакетОформленияОтчетовЧерноБелый</Template>
+			<Template>ОборотноСальдоваяВедомость</Template>
+			<Template>ОборотноСальдоваяВедомостьПоСчету</Template>
+			<Template>КарточкаСчета</Template>
+			<Template>ОтчетПоПроводкам</Template>
+			<Template>АнализСчета</Template>
+			<Template>СводныеПроводки</Template>
+			<Template>ОборотыСчета</Template>
+			<Template>КарточкаСубконто</Template>
+			<Template>ОборотыМеждуСубконто</Template>
+			<Template>АнализСубконто</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

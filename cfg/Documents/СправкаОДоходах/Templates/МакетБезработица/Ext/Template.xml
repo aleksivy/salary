@@ -1063,8 +1063,9 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страхові внески, сплачені застрахованою особою до Фонду загально-
-обов'язкового державного соціального страхування на випадок безробіття, гривень 
-</v8:content>
+обов'язкового державного соціального страхування на випадок безробіття, 
+ЄСВ, 
+гривень</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -3138,6 +3139,7 @@
 				<i>1</i>
 				<c>
 					<f>65</f>
+					<parameter>Закон</parameter>
 				</c>
 			</c>
 		</row>
@@ -3259,7 +3261,8 @@
 			</c>
 			<c>
 				<c>
-					<f>54</f>
+					<f>68</f>
+					<parameter>Периодвыплат</parameter>
 				</c>
 			</c>
 		</row>
@@ -3267,7 +3270,7 @@
 	<rowsItem>
 		<index>38</index>
 		<row>
-			<formatIndex>68</formatIndex>
+			<formatIndex>69</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
@@ -3356,7 +3359,7 @@
 			</c>
 			<c>
 				<c>
-					<f>69</f>
+					<f>70</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3371,31 +3374,31 @@
 	<rowsItem>
 		<index>39</index>
 		<row>
-			<formatIndex>70</formatIndex>
+			<formatIndex>71</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>65</f>
+					<f>72</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>65</f>
+					<f>72</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>65</f>
+					<f>72</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>54</f>
+					<f>73</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>71</f>
+					<f>74</f>
 				</c>
 			</c>
 			<c>
@@ -3532,7 +3535,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>72</f>
+					<f>75</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3550,7 +3553,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>72</f>
+					<f>75</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3916,7 +3919,7 @@
 			</c>
 			<c>
 				<c>
-					<f>54</f>
+					<f>73</f>
 					<tl/>
 				</c>
 			</c>
@@ -3933,7 +3936,7 @@
 			</c>
 			<c>
 				<c>
-					<f>73</f>
+					<f>76</f>
 					<parameter>Руководитель</parameter>
 				</c>
 			</c>
@@ -3997,17 +4000,17 @@
 	<rowsItem>
 		<index>45</index>
 		<row>
-			<formatIndex>74</formatIndex>
+			<formatIndex>77</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>75</f>
+					<f>78</f>
 				</c>
 			</c>
 			<c>
 				<i>10</i>
 				<c>
-					<f>76</f>
+					<f>79</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4025,7 +4028,7 @@
 			<c>
 				<i>20</i>
 				<c>
-					<f>76</f>
+					<f>79</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4049,7 +4052,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>75</f>
+					<f>78</f>
 				</c>
 			</c>
 		</row>
@@ -4061,7 +4064,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>77</f>
+					<f>80</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4077,14 +4080,14 @@
 			<c>
 				<i>10</i>
 				<c>
-					<f>78</f>
+					<f>81</f>
 					<tl/>
 				</c>
 			</c>
 			<c>
 				<i>20</i>
 				<c>
-					<f>79</f>
+					<f>82</f>
 					<parameter>ГлавныйБухгалтер</parameter>
 				</c>
 			</c>
@@ -4093,17 +4096,17 @@
 	<rowsItem>
 		<index>48</index>
 		<row>
-			<formatIndex>74</formatIndex>
+			<formatIndex>77</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
-					<f>75</f>
+					<f>78</f>
 				</c>
 			</c>
 			<c>
 				<i>10</i>
 				<c>
-					<f>76</f>
+					<f>79</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4121,7 +4124,7 @@
 			<c>
 				<i>20</i>
 				<c>
-					<f>76</f>
+					<f>79</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4145,7 +4148,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>75</f>
+					<f>78</f>
 				</c>
 			</c>
 		</row>
@@ -4156,7 +4159,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>75</f>
+					<f>78</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -4485,6 +4488,8 @@
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute"/>
 	<font faceName="Arial" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute"/>
 	<font faceName="Arial" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute"/>
+	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
+	<font faceName="Arial" height="10" bold="true" italic="true" underline="false" strikeout="false" kind="Absolute"/>
 	<format>
 		<width>24</width>
 	</format>
@@ -4807,6 +4812,7 @@
 		<font>11</font>
 		<bottomBorder>0</bottomBorder>
 		<width>24</width>
+		<protection>false</protection>
 	</format>
 	<format>
 		<height>48</height>
@@ -4860,8 +4866,11 @@
 		<height>48</height>
 	</format>
 	<format>
-		<font>11</font>
+		<font>14</font>
 		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<protection>false</protection>
 	</format>
 	<format>
 		<font>6</font>
@@ -4870,6 +4879,14 @@
 	<format>
 		<font>11</font>
 		<height>66</height>
+	</format>
+	<format>
+		<font>15</font>
+		<bottomBorder>0</bottomBorder>
+		<width>24</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<fillType>Parameter</fillType>
+		<protection>false</protection>
 	</format>
 	<format>
 		<font>11</font>
@@ -4883,6 +4900,15 @@
 	<format>
 		<font>11</font>
 		<height>33</height>
+	</format>
+	<format>
+		<font>11</font>
+		<bottomBorder>0</bottomBorder>
+	</format>
+	<format>
+		<font>11</font>
+		<bottomBorder>0</bottomBorder>
+		<width>24</width>
 	</format>
 	<format>
 		<font>0</font>

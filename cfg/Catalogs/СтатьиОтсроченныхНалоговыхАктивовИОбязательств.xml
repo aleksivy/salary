@@ -150,7 +150,7 @@
 					</Synonym>
 					<Comment>Счет для оценки статьи по нал. учету</Comment>
 					<Type>
-						<v8:Type>cfg:ChartOfAccountsRef.Налоговый</v8:Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

@@ -70,6 +70,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.НамеченныеСобытияПоПерсоналу</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПериодыСостоянийРаботниковОрганизаций</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ИспользованиеЕжегодныхОтпусковРаботников</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СернаДниОтпуска</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СостояниеРаботниковОрганизаций</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>false</PostInPrivilegedMode>

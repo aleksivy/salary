@@ -2952,6 +2952,10 @@
 							<dcscor:value xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 						</dcscor:item>
 						<dcscor:item>
+							<dcscor:parameter>Размещение</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Wrap</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">23.75</dcscor:value>
 						</dcscor:item>
@@ -3173,10 +3177,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расчетная ведомость организаций</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Розрахункова відомість організацій</v8:content>
 						</v8:item>
 					</dcscor:value>
 				</dcscor:item>
