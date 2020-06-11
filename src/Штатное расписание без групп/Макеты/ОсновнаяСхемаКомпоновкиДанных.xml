@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Должность</dataPath>
+				<field>Должность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Посада</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтавокФакт</dataPath>
+				<field>СтавокФакт</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Кіл-сть ставок</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xsi:type="xs:string">ЧДЦ=3</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтавокШтат</dataPath>
+				<field>СтавокШтат</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Кіл-сть шт.</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xsi:type="xs:string">ЧДЦ=</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сотрудник</dataPath>
+				<field>Сотрудник</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>ПІБ працівника</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПодразделениеОрганизации</dataPath>
+				<field>ПодразделениеОрганизации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Назва структурного підрозділу</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Оклад</dataPath>
+				<field>Оклад</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Посадовий оклад</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xsi:type="xs:string">ЧДЦ=2</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КодКП</dataPath>
+				<field>КодКП</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Код класифікатора професій</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>ГоризонтальноеПоложение</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/ui" xsi:type="d7p1:HorizontalAlign">Center</value>
+					</item>
+				</appearance>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Беременные.Сотрудник
+ПОМЕСТИТЬ Беременные
+ИЗ
+	РегистрСведений.СостояниеРаботниковОрганизаций.СрезПоследних(
+			&amp;Дата,
+			Активность
+				И ПериодЗавершения &gt;= &amp;Дата
+				И (Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияРаботникаОрганизации.ОтпускПоБеременностиИРодам)
+					ИЛИ Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияРаботникаОрганизации.ОтпускПоУходуЗаРебенком))) КАК Беременные
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Оклады.Сотрудник,
+	ВЫРАЗИТЬ(Оклады.Показатель1 * ЕСТЬNULL(КурсыВалют.Курс, 1) / ЕСТЬNULL(КурсыВалют.Кратность, 1) КАК ЧИСЛО(12, 2)) КАК ОкладГрн
+ПОМЕСТИТЬ ОкладыБеременных
+ИЗ
+	РегистрСведений.ПлановыеНачисленияРаботниковОрганизаций.СрезПоследних(
+			&amp;Дата,
+			Активность
+				И ВидРасчета = ЗНАЧЕНИЕ(ПланВидовРасчета.ОсновныеНачисленияОрганизаций.ОкладПоДням)
+				И Сотрудник В
+					(ВЫБРАТЬ
+						Беременные.Сотрудник
+					ИЗ
+						Беременные КАК Беременные)
+				И Показатель1 &gt; 0) КАК Оклады
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КурсыВалютДляРасчетовСПерсоналом.СрезПоследних(&amp;Дата, ) КАК КурсыВалют
+		ПО Оклады.Валюта1 = КурсыВалют.Валюта
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Оклады.Сотрудник,
+	ВЫБОР
+		КОГДА Оклады.Показатель1 = 0
+				И ЕСТЬNULL(ОкладыБеременных.ОкладГрн, 0) &gt; 0
+			ТОГДА ОкладыБеременных.ОкладГрн
+		ИНАЧЕ ВЫРАЗИТЬ(Оклады.Показатель1 * ЕСТЬNULL(КурсыВалют.Курс, 1) / ЕСТЬNULL(КурсыВалют.Кратность, 1) КАК ЧИСЛО(12, 2))
+	КОНЕЦ КАК ОкладГрн,
+	ОкладыБеременных.ОкладГрн КАК ОкладГрн1
+ПОМЕСТИТЬ Оклады
+ИЗ
+	РегистрСведений.ПлановыеНачисленияРаботниковОрганизаций.СрезПоследних(
+			&amp;Дата,
+			Активность
+				И ВидРасчета = ЗНАЧЕНИЕ(ПланВидовРасчета.ОсновныеНачисленияОрганизаций.ОкладПоДням)) КАК Оклады
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КурсыВалютДляРасчетовСПерсоналом.СрезПоследних(&amp;Дата, ) КАК КурсыВалют
+		ПО Оклады.Валюта1 = КурсыВалют.Валюта
+		ЛЕВОЕ СОЕДИНЕНИЕ ОкладыБеременных КАК ОкладыБеременных
+		ПО Оклады.Сотрудник = ОкладыБеременных.Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Рег.Сотрудник КАК Сотрудник,
+	Рег.ПодразделениеОрганизации КАК ПодразделениеОрганизации,
+	Рег.Должность КАК Должность,
+	Рег.Должность.КодКП КАК КодКП,
+	1 КАК СтавокШтат,
+	ВЫБОР
+		КОГДА Беременные.Сотрудник ЕСТЬ NULL 
+			ТОГДА Рег.ЗанимаемыхСтавок
+		ИНАЧЕ 0
+	КОНЕЦ КАК СтавокФакт,
+	ВЫБОР
+		КОГДА Рег.ЗанимаемыхСтавок = 1
+			ТОГДА ЕСТЬNULL(Оклады.ОкладГрн, 0)
+		КОГДА Рег.ЗанимаемыхСтавок = 0
+			ТОГДА 0
+		ИНАЧЕ ВЫРАЗИТЬ(ЕСТЬNULL(Оклады.ОкладГрн, 0) / Рег.ЗанимаемыхСтавок КАК ЧИСЛО(12, 2))
+	КОНЕЦ КАК Оклад
+ИЗ
+	РегистрСведений.РаботникиОрганизаций.СрезПоследних(
+			&amp;Дата,
+			Активность
+				И ТИПЗНАЧЕНИЯ(ОбособленноеПодразделение) = ТИП(Справочник.Организации)
+				И НЕ ОбособленноеПодразделение = ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка)) КАК Рег
+		ЛЕВОЕ СОЕДИНЕНИЕ Оклады КАК Оклады
+		ПО Рег.Сотрудник = Оклады.Сотрудник
+		ЛЕВОЕ СОЕДИНЕНИЕ Беременные КАК Беременные
+		ПО Рег.Сотрудник = Беременные.Сотрудник
+ГДЕ
+	НЕ Рег.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.ПричиныИзмененияСостояния.Увольнение)</query>
+		</dataSet>
+		<totalField>
+			<dataPath>Оклад</dataPath>
+			<expression>Сумма(Оклад)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>СтавокФакт</dataPath>
+			<expression>Сумма(СтавокФакт)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>СтавокШтат</dataPath>
+			<expression>Сумма(СтавокШтат)</expression>
+		</totalField>
+		<parameter>
+			<name>Период</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Период</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Дата</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Дата</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>ПодразделениеОрганизации</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Должность</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КодКП</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СтавокШтат</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СтавокФакт</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Оклад</field>
+		</item>
+	</selection>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>ПодразделениеОрганизации</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Должность.КодКП</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Должность.Код</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Сотрудник</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>ПараметрыДанных.Дата</field>
+				</item>
+				<item>
+					<field>ПараметрыДанных.Период</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+	</conditionalAppearance>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+			<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>Заголовок</dcscor:parameter>
+			<dcscor:value xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ШТАТНИЙ РОЗКЛАД</v8:content>
+				</v8:item>
+			</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionTextOutputType">Output</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>

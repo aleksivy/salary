@@ -1,0 +1,9 @@
+﻿38039e5c-47ce-4d79-9137-4fcd6ce0399d-->und\38039e5c-47ce-4d79-9137-4fcd6ce0399d
+ac50e47f-89c6-4683-8615-55a87bcf7064-->und\ac50e47f-89c6-4683-8615-55a87bcf7064
+ac50e47f-89c6-4683-8615-55a87bcf7064.0-->und\ac50e47f-89c6-4683-8615-55a87bcf7064.0
+cb87574f-b901-4d13-949e-454d809632cf-->und\cb87574f-b901-4d13-949e-454d809632cf
+cb87574f-b901-4d13-949e-454d809632cf.0-->Form\ФормаОтчета
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

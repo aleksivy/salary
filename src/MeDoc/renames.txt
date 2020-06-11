@@ -1,0 +1,12 @@
+﻿1d64afe1-32c9-4b49-8624-f5800d4870b8-->und\1d64afe1-32c9-4b49-8624-f5800d4870b8
+1d64afe1-32c9-4b49-8624-f5800d4870b8.0-->Form\ТТНФорма
+49d80b54-adde-4880-80d4-4295b5424d62.0\info-->und\49d80b54-adde-4880-80d4-4295b5424d62.0\info
+49d80b54-adde-4880-80d4-4295b5424d62.0\text-->ObjectModule.bsl
+49d80b54-adde-4880-80d4-4295b5424d62.1-->und\49d80b54-adde-4880-80d4-4295b5424d62.1
+5c6b9323-119e-421f-82b6-9199308f729e-->und\5c6b9323-119e-421f-82b6-9199308f729e
+copyinfo-->und\copyinfo
+f5adc659-91db-41ee-8096-e3be151fcc0b-->und\f5adc659-91db-41ee-8096-e3be151fcc0b
+f5adc659-91db-41ee-8096-e3be151fcc0b.0-->Form\Форма
+root-->und\root
+version-->und\version
+versions-->und\versions

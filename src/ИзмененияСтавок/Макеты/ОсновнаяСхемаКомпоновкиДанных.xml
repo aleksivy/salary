@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>РаботникиОрганизаций</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УдалитьВидВзаиморасчетов</dataPath>
+				<field>УдалитьВидВзаиморасчетов</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтатьяРасчетовСФСС</dataPath>
+				<field>СтатьяРасчетовСФСС</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Должность</dataPath>
+				<field>Должность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Position</d5p1:content>
+					</d5p1:item>
+				</title>
+				<presentationExpression>Должность.Name</presentationExpression>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Размещение</parameter>
+						<value xsi:type="DataCompositionTextPlacementType">Cut</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПодразделениеОрганизации</dataPath>
+				<field>ПодразделениеОрганизации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Department</d5p1:content>
+					</d5p1:item>
+				</title>
+				<presentationExpression>ПодразделениеОрганизации.Name</presentationExpression>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Размещение</parameter>
+						<value xsi:type="DataCompositionTextPlacementType">Cut</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Пол</dataPath>
+				<field>Пол</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>M/F</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сотрудник</dataPath>
+				<field>Сотрудник</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Employee</d5p1:content>
+					</d5p1:item>
+				</title>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Размещение</parameter>
+						<value xsi:type="DataCompositionTextPlacementType">Cut</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодРегистрации</dataPath>
+				<field>ПериодРегистрации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Период регистрации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>LeftDate</dataPath>
+				<field>LeftDate</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Left date</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>StartDate</dataPath>
+				<field>StartDate</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Start date</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>УдалитьФизлицо</dataPath>
+				<field>УдалитьФизлицо</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Возраст</dataPath>
+				<field>Возраст</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Age</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПериодВзаиморасчетов</dataPath>
+				<field>ПериодВзаиморасчетов</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ФизЛицо</dataPath>
+				<field>ФизЛицо</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СчетУчета</dataPath>
+				<field>СчетУчета</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВалютаОклада</dataPath>
+				<field>ВалютаОклада</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Salary curr.</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Период</dataPath>
+				<field>Период</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Period</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ДФ=dd.MM.yyyy</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Оклад</dataPath>
+				<field>Оклад</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Salary</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ОтпускПоБеременности</dataPath>
+				<field>ОтпускПоБеременности</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Отпуск по беременности</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>ГоризонтальноеПоложение</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/ui" xsi:type="d7p1:HorizontalAlign">Center</value>
+					</item>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>БЛ=' '; БИ=Да</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	Рег.Сотрудник
+ПОМЕСТИТЬ Беременные
+ИЗ
+	РегистрСведений.СостояниеРаботниковОрганизаций.СрезПоследних(
+			&amp;КонецПериода,
+			(ПериодЗавершения &gt;= &amp;КонецПериода
+				ИЛИ ПериодЗавершения = ДАТАВРЕМЯ(1, 1, 1))
+				И (Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияРаботникаОрганизации.ОтпускПоБеременностиИРодам)
+					ИЛИ Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияРаботникаОрганизации.ОтпускПоУходуЗаРебенком))) КАК Рег
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Рег.Сотрудник,
+	&amp;НачалоПериода КАК Период,
+	Рег.Показатель1 КАК Оклад,
+	ВЫБОР
+		КОГДА Рег.Валюта1 = ЗНАЧЕНИЕ(Справочник.Валюты.ПустаяСсылка)
+			ТОГДА ЗНАЧЕНИЕ(Справочник.Валюты.Гривна)
+		ИНАЧЕ Рег.Валюта1
+	КОНЕЦ КАК ВалютаОклада
+ПОМЕСТИТЬ Оклады
+ИЗ
+	РегистрСведений.ПлановыеНачисленияРаботниковОрганизаций.СрезПоследних(
+			&amp;НачалоПериода,
+			Активность
+				И Актуальность
+				И ВидРасчета = ЗНАЧЕНИЕ(ПланВидовРасчета.ОсновныеНачисленияОрганизаций.ОкладПоДням)) КАК Рег
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Рег.Сотрудник,
+	Рег.Период,
+	Рег.Показатель1,
+	ВЫБОР
+		КОГДА Рег.Валюта1 = ЗНАЧЕНИЕ(Справочник.Валюты.ПустаяСсылка)
+			ТОГДА ЗНАЧЕНИЕ(Справочник.Валюты.Гривна)
+		ИНАЧЕ Рег.Валюта1
+	КОНЕЦ
+ИЗ
+	РегистрСведений.ПлановыеНачисленияРаботниковОрганизаций КАК Рег
+ГДЕ
+	Рег.ВидРасчета = ЗНАЧЕНИЕ(ПланВидовРасчета.ОсновныеНачисленияОрганизаций.ОкладПоДням)
+	И Рег.Период &gt; &amp;НачалоПериода
+	И Рег.Период &lt;= &amp;КонецПериода
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ПоследниеДаты.ПериодРегистрации КАК ПериодРегистрации,
+	РаботникиОрганизаций.Сотрудник КАК Сотрудник,
+	РаботникиОрганизаций.Организация КАК Организация,
+	РаботникиОрганизаций.Сотрудник.Физлицо КАК Физлицо,
+	РаботникиОрганизаций.ПодразделениеОрганизации КАК ПодразделениеОрганизации,
+	РаботникиОрганизаций.Должность КАК Должность,
+	РАЗНОСТЬДАТ(РаботникиОрганизаций.Сотрудник.Физлицо.ДатаРождения, &amp;КонецПериода, ГОД) КАК Возраст,
+	ВЫБОР
+		КОГДА РаботникиОрганизаций.Сотрудник.Физлицо.Пол = ЗНАЧЕНИЕ(Перечисление.ПолФизическихЛиц.Женский)
+			ТОГДА "Female"
+		ИНАЧЕ "Male"
+	КОНЕЦ КАК Пол,
+	РаботникиОрганизаций.Сотрудник.ДатаПриемаНаРаботу КАК StartDate,
+	РаботникиОрганизаций.Сотрудник.ДатаУвольнения КАК LeftDate
+ПОМЕСТИТЬ Врем
+ИЗ
+	(ВЫБРАТЬ
+		ДатыПоследнихДвижений.ПериодРегистрации КАК ПериодРегистрации,
+		ДатыПоследнихДвижений.Период КАК Период,
+		РаботникиОрганизаций.Сотрудник КАК Сотрудник,
+		РаботникиОрганизаций.Организация КАК Организация,
+		ДатыПоследнихДвижений.ДатаНачала КАК ДатаНачала,
+		КОЛИЧЕСТВО(РаботникиОрганизаций.Период) КАК КолВоДвижений
+	ИЗ
+		(ВЫБРАТЬ
+			Периоды.Период КАК ПериодРегистрации,
+			МАКСИМУМ(РаботникиОрганизаций.Период) КАК Период,
+			РаботникиОрганизаций.Сотрудник КАК Сотрудник,
+			РаботникиОрганизаций.Организация КАК Организация,
+			МАКСИМУМ(Договора.ДатаНачала) КАК ДатаНачала
+		ИЗ
+			(ВЫБРАТЬ РАЗЛИЧНЫЕ
+				НАЧАЛОПЕРИОДА(РегламентированныйПроизводственныйКалендарь.ДатаКалендаря, МЕСЯЦ) КАК Период
+			ИЗ
+				РегистрСведений.РегламентированныйПроизводственныйКалендарь КАК РегламентированныйПроизводственныйКалендарь
+			ГДЕ
+				РегламентированныйПроизводственныйКалендарь.ДатаКалендаря МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода) КАК Периоды
+				ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.РаботникиОрганизаций КАК РаботникиОрганизаций
+				ПО (РаботникиОрганизаций.Период &lt;= КОНЕЦПЕРИОДА(Периоды.Период, МЕСЯЦ))
+				ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+					ДоговорНаВыполнениеРаботСФизЛицом.ФизЛицо КАК Физлицо,
+					ДоговорНаВыполнениеРаботСФизЛицом.Организация КАК Организация,
+					ДоговорНаВыполнениеРаботСФизЛицом.ДатаНачала КАК ДатаНачала,
+					ДоговорНаВыполнениеРаботСФизЛицом.ДатаОкончания КАК ДатаОкончания
+				ИЗ
+					Документ.ДоговорНаВыполнениеРаботСФизЛицом КАК ДоговорНаВыполнениеРаботСФизЛицом
+				ГДЕ
+					ДоговорНаВыполнениеРаботСФизЛицом.ДатаНачала &lt;= &amp;КонецПериода
+					И ДоговорНаВыполнениеРаботСФизЛицом.ДатаОкончания &gt;= &amp;НачалоПериода
+					И ДоговорНаВыполнениеРаботСФизЛицом.Проведен
+				{ГДЕ
+					ДоговорНаВыполнениеРаботСФизЛицом.ФизЛицо.*,
+					ДоговорНаВыполнениеРаботСФизЛицом.Организация.*,
+					ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник.*}) КАК Договора
+				ПО Периоды.Период &lt;= Договора.ДатаОкончания
+					И (Договора.Организация = РаботникиОрганизаций.Организация)
+					И (Договора.Физлицо = РаботникиОрганизаций.Сотрудник.Физлицо)
+		ГДЕ
+			РаботникиОрганизаций.Сотрудник.ВидЗанятости &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ВнутреннееСовместительство)
+		
+		СГРУППИРОВАТЬ ПО
+			Периоды.Период,
+			РаботникиОрганизаций.Сотрудник,
+			РаботникиОрганизаций.Организация) КАК ДатыПоследнихДвижений
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.РаботникиОрганизаций КАК РаботникиОрганизаций
+			ПО ДатыПоследнихДвижений.Организация = РаботникиОрганизаций.Организация
+				И ДатыПоследнихДвижений.Сотрудник = РаботникиОрганизаций.Сотрудник
+				И ДатыПоследнихДвижений.Период = РаботникиОрганизаций.Период
+	ГДЕ
+		РаботникиОрганизаций.Сотрудник.ВидЗанятости &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ВнутреннееСовместительство)
+	
+	СГРУППИРОВАТЬ ПО
+		ДатыПоследнихДвижений.ПериодРегистрации,
+		РаботникиОрганизаций.Сотрудник,
+		РаботникиОрганизаций.Организация,
+		ДатыПоследнихДвижений.ДатаНачала,
+		ДатыПоследнихДвижений.Период) КАК ПоследниеДаты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.РаботникиОрганизаций КАК РаботникиОрганизаций
+		ПО ПоследниеДаты.Сотрудник = РаботникиОрганизаций.Сотрудник
+			И ПоследниеДаты.Организация = РаботникиОрганизаций.Организация
+			И ПоследниеДаты.Период = РаботникиОрганизаций.Период
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ДоговорНаВыполнениеРаботСФизЛицом КАК ДоговорНаВыполнениеРаботСФизЛицом
+		ПО ПоследниеДаты.ДатаНачала = ДоговорНаВыполнениеРаботСФизЛицом.ДатаНачала
+			И ПоследниеДаты.Сотрудник = ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник
+			И ПоследниеДаты.Организация = ДоговорНаВыполнениеРаботСФизЛицом.Организация
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			Периоды.Период КАК ПериодРегистрации,
+			Сальдо.Сотрудник КАК Сотрудник,
+			Сальдо.Организация КАК Организация
+		ИЗ
+			(ВЫБРАТЬ РАЗЛИЧНЫЕ
+				НАЧАЛОПЕРИОДА(РегламентированныйПроизводственныйКалендарь.ДатаКалендаря, МЕСЯЦ) КАК Период
+			ИЗ
+				РегистрСведений.РегламентированныйПроизводственныйКалендарь КАК РегламентированныйПроизводственныйКалендарь
+			ГДЕ
+				РегламентированныйПроизводственныйКалендарь.ДатаКалендаря МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода) КАК Периоды
+				ВНУТРЕННЕЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+					ВзаиморасчетыСРаботникамиОрганизацииОстатки.Организация КАК Организация,
+					ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, ДЕНЬ, -1) КАК Период,
+					ВзаиморасчетыСРаботникамиОрганизацииОстатки.Сотрудник КАК Сотрудник,
+					ВзаиморасчетыСРаботникамиОрганизацииОстатки.СуммаВзаиморасчетовОстаток КАК Сумма
+				ИЗ
+					РегистрНакопления.ВзаиморасчетыСРаботникамиОрганизаций.Остатки(&amp;НачалоПериода, ) КАК ВзаиморасчетыСРаботникамиОрганизацииОстатки
+				
+				ОБЪЕДИНИТЬ ВСЕ
+				
+				ВЫБРАТЬ РАЗЛИЧНЫЕ
+					ВзаиморасчетыСРаботникамиОрганизацийОстаткиИОбороты.Организация,
+					НАЧАЛОПЕРИОДА(ВзаиморасчетыСРаботникамиОрганизацийОстаткиИОбороты.ПериодВзаиморасчетов, МЕСЯЦ),
+					ВзаиморасчетыСРаботникамиОрганизацийОстаткиИОбороты.Сотрудник,
+					1
+				ИЗ
+					РегистрНакопления.ВзаиморасчетыСРаботникамиОрганизаций.ОстаткиИОбороты(&amp;НачалоПериода, &amp;КонецПериода, , , ) КАК ВзаиморасчетыСРаботникамиОрганизацийОстаткиИОбороты
+				
+				ОБЪЕДИНИТЬ ВСЕ
+				
+				ВЫБРАТЬ
+					ВзаиморасчетыПоНачислениямЗаСчетФССОстатки.Организация,
+					ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, ДЕНЬ, -1),
+					ВзаиморасчетыПоНачислениямЗаСчетФССОстатки.Сотрудник,
+					ВзаиморасчетыПоНачислениямЗаСчетФССОстатки.СуммаОстаток
+				ИЗ
+					РегистрНакопления.ВзаиморасчетыПоНачислениямЗаСчетФСС.Остатки(&amp;НачалоПериода, ) КАК ВзаиморасчетыПоНачислениямЗаСчетФССОстатки
+				
+				ОБЪЕДИНИТЬ ВСЕ
+				
+				ВЫБРАТЬ РАЗЛИЧНЫЕ
+					ВзаиморасчетыПоНачислениямЗаСчетФССОстаткиИОбороты.Организация,
+					НАЧАЛОПЕРИОДА(ВзаиморасчетыПоНачислениямЗаСчетФССОстаткиИОбороты.ПериодВзаиморасчетов, МЕСЯЦ),
+					ВзаиморасчетыПоНачислениямЗаСчетФССОстаткиИОбороты.Сотрудник,
+					1
+				ИЗ
+					РегистрНакопления.ВзаиморасчетыПоНачислениямЗаСчетФСС.ОстаткиИОбороты(&amp;НачалоПериода, &amp;КонецПериода, , , ) КАК ВзаиморасчетыПоНачислениямЗаСчетФССОстаткиИОбороты) КАК Сальдо
+				ПО (Сальдо.Период &lt;= Периоды.Период)
+		
+		СГРУППИРОВАТЬ ПО
+			Периоды.Период,
+			Сальдо.Сотрудник,
+			Сальдо.Организация
+		
+		ИМЕЮЩИЕ
+			(СУММА(ВЫБОР
+						КОГДА Сальдо.Период &lt; Периоды.Период
+							ТОГДА Сальдо.Сумма
+						ИНАЧЕ 0
+					КОНЕЦ) &lt;&gt; 0
+				ИЛИ СУММА(ВЫБОР
+						КОГДА Сальдо.Период &lt;= Периоды.Период
+							ТОГДА Сальдо.Сумма
+						ИНАЧЕ 0
+					КОНЕЦ) &lt;&gt; 0
+				ИЛИ СУММА(ВЫБОР
+						КОГДА Сальдо.Период = Периоды.Период
+							ТОГДА Сальдо.Сумма
+						ИНАЧЕ 0
+					КОНЕЦ) &lt;&gt; 0)) КАК Оcтаток
+		ПО ПоследниеДаты.Организация = Оcтаток.Организация
+			И ПоследниеДаты.ПериодРегистрации = Оcтаток.ПериодРегистрации
+			И ПоследниеДаты.Сотрудник = Оcтаток.Сотрудник
+ГДЕ
+	РаботникиОрганизаций.Сотрудник.ВидЗанятости &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ВнутреннееСовместительство)
+	И (ПоследниеДаты.КолВоДвижений = 2
+				И РаботникиОрганизаций.ПричинаИзмененияСостояния &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ПричиныИзмененияСостояния.Увольнение)
+			ИЛИ ПоследниеДаты.КолВоДвижений = 1)
+	И ВЫБОР
+			КОГДА РаботникиОрганизаций.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.ПричиныИзмененияСостояния.Увольнение)
+					И РаботникиОрганизаций.Период &lt;= ПоследниеДаты.ПериодРегистрации
+					И НЕ ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник ЕСТЬ NULL
+				ТОГДА ЛОЖЬ
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ
+
+ОБЪЕДИНИТЬ
+
+ВЫБРАТЬ
+	ДатыПоследнихДоговоров.ПериодРегистрации,
+	ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник,
+	ДатыПоследнихДоговоров.Организация,
+	ДатыПоследнихДоговоров.Физлицо,
+	МАКСИМУМ(ДоговорНаВыполнениеРаботСФизЛицом.ПодразделениеОрганизации),
+	ЗНАЧЕНИЕ(Справочник.ДолжностиОрганизаций.ПустаяСсылка),
+	РАЗНОСТЬДАТ(ДатыПоследнихДоговоров.Физлицо.ДатаРождения, &amp;КонецПериода, ГОД),
+	ВЫБОР
+		КОГДА ДатыПоследнихДоговоров.Физлицо.Пол = ЗНАЧЕНИЕ(Перечисление.ПолФизическихЛиц.Женский)
+			ТОГДА "Female"
+		ИНАЧЕ "Male"
+	КОНЕЦ,
+	ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник.ДатаПриемаНаРаботу,
+	ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник.ДатаУвольнения
+ИЗ
+	(ВЫБРАТЬ
+		Договора.Физлицо КАК Физлицо,
+		Договора.Организация КАК Организация,
+		МАКСИМУМ(Договора.ДатаНачала) КАК ДатаНачала,
+		Периоды.Период КАК ПериодРегистрации,
+		МАКСИМУМ(РаботникиОрганизаций.Период) КАК Период
+	ИЗ
+		(ВЫБРАТЬ РАЗЛИЧНЫЕ
+			НАЧАЛОПЕРИОДА(РегламентированныйПроизводственныйКалендарь.ДатаКалендаря, МЕСЯЦ) КАК Период
+		ИЗ
+			РегистрСведений.РегламентированныйПроизводственныйКалендарь КАК РегламентированныйПроизводственныйКалендарь
+		ГДЕ
+			РегламентированныйПроизводственныйКалендарь.ДатаКалендаря МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода) КАК Периоды
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+				ДоговорНаВыполнениеРаботСФизЛицом.ФизЛицо КАК Физлицо,
+				ДоговорНаВыполнениеРаботСФизЛицом.Организация КАК Организация,
+				ДоговорНаВыполнениеРаботСФизЛицом.ДатаНачала КАК ДатаНачала,
+				ДоговорНаВыполнениеРаботСФизЛицом.ДатаОкончания КАК ДатаОкончания
+			ИЗ
+				Документ.ДоговорНаВыполнениеРаботСФизЛицом КАК ДоговорНаВыполнениеРаботСФизЛицом
+			ГДЕ
+				ДоговорНаВыполнениеРаботСФизЛицом.ДатаНачала &lt;= &amp;КонецПериода
+				И ДоговорНаВыполнениеРаботСФизЛицом.Проведен
+			{ГДЕ
+				ДоговорНаВыполнениеРаботСФизЛицом.ФизЛицо.*,
+				ДоговорНаВыполнениеРаботСФизЛицом.Организация.*,
+				ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник.*}) КАК Договора
+			ПО (Договора.ДатаНачала &lt;= КОНЕЦПЕРИОДА(Периоды.Период, МЕСЯЦ))
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.РаботникиОрганизаций КАК РаботникиОрганизаций
+			ПО (Договора.Физлицо = РаботникиОрганизаций.Сотрудник.Физлицо)
+				И (Договора.Организация = РаботникиОрганизаций.Организация)
+				И (КОНЕЦПЕРИОДА(Периоды.Период, МЕСЯЦ) &gt;= РаботникиОрганизаций.Период)
+	
+	СГРУППИРОВАТЬ ПО
+		Договора.Физлицо,
+		Договора.Организация,
+		Периоды.Период) КАК ДатыПоследнихДоговоров
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ДоговорНаВыполнениеРаботСФизЛицом КАК ДоговорНаВыполнениеРаботСФизЛицом
+		ПО ДатыПоследнихДоговоров.Физлицо = ДоговорНаВыполнениеРаботСФизЛицом.ФизЛицо
+			И ДатыПоследнихДоговоров.Организация = ДоговорНаВыполнениеРаботСФизЛицом.Организация
+			И ДатыПоследнихДоговоров.ДатаНачала = ДоговорНаВыполнениеРаботСФизЛицом.ДатаНачала
+			И (ДоговорНаВыполнениеРаботСФизЛицом.Проведен)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.РаботникиОрганизаций КАК РаботникиОрганизаций
+		ПО ДатыПоследнихДоговоров.Физлицо = РаботникиОрганизаций.Сотрудник.Физлицо
+			И ДатыПоследнихДоговоров.Период = РаботникиОрганизаций.Период
+			И ДатыПоследнихДоговоров.Организация = РаботникиОрганизаций.Организация
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			Периоды.Период КАК ПериодРегистрации,
+			Сальдо.Физлицо КАК Физлицо,
+			Сальдо.Организация КАК Организация
+		ИЗ
+			(ВЫБРАТЬ РАЗЛИЧНЫЕ
+				НАЧАЛОПЕРИОДА(РегламентированныйПроизводственныйКалендарь.ДатаКалендаря, МЕСЯЦ) КАК Период
+			ИЗ
+				РегистрСведений.РегламентированныйПроизводственныйКалендарь КАК РегламентированныйПроизводственныйКалендарь
+			ГДЕ
+				РегламентированныйПроизводственныйКалендарь.ДатаКалендаря МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода) КАК Периоды
+				ВНУТРЕННЕЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+					ВзаиморасчетыСРаботникамиОрганизацииОстаткиИОбороты.Организация КАК Организация,
+					ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, ДЕНЬ, -1) КАК Период,
+					ВзаиморасчетыСРаботникамиОрганизацииОстаткиИОбороты.Сотрудник.Физлицо КАК Физлицо,
+					ВзаиморасчетыСРаботникамиОрганизацииОстаткиИОбороты.СуммаВзаиморасчетовОстаток КАК Сумма
+				ИЗ
+					РегистрНакопления.ВзаиморасчетыСРаботникамиОрганизаций.Остатки(&amp;НачалоПериода, ) КАК ВзаиморасчетыСРаботникамиОрганизацииОстаткиИОбороты
+				
+				ОБЪЕДИНИТЬ ВСЕ
+				
+				ВЫБРАТЬ РАЗЛИЧНЫЕ
+					ВзаиморасчетыСРаботникамиОрганизаций.Организация,
+					НАЧАЛОПЕРИОДА(ВзаиморасчетыСРаботникамиОрганизаций.Период, МЕСЯЦ),
+					ВзаиморасчетыСРаботникамиОрганизаций.Сотрудник.Физлицо,
+					1
+				ИЗ
+					РегистрНакопления.ВзаиморасчетыСРаботникамиОрганизаций КАК ВзаиморасчетыСРаботникамиОрганизаций
+				ГДЕ
+					ВзаиморасчетыСРаботникамиОрганизаций.Период МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода) КАК Сальдо
+				ПО (Сальдо.Период &lt;= Периоды.Период)
+		
+		СГРУППИРОВАТЬ ПО
+			Периоды.Период,
+			Сальдо.Физлицо,
+			Сальдо.Организация
+		
+		ИМЕЮЩИЕ
+			(СУММА(ВЫБОР
+						КОГДА Сальдо.Период &lt; Периоды.Период
+							ТОГДА Сальдо.Сумма
+						ИНАЧЕ 0
+					КОНЕЦ) &lt;&gt; 0
+				ИЛИ СУММА(ВЫБОР
+						КОГДА Сальдо.Период &lt;= Периоды.Период
+							ТОГДА Сальдо.Сумма
+						ИНАЧЕ 0
+					КОНЕЦ) &lt;&gt; 0
+				ИЛИ СУММА(ВЫБОР
+						КОГДА Сальдо.Период = Периоды.Период
+							ТОГДА Сальдо.Сумма
+						ИНАЧЕ 0
+					КОНЕЦ) &lt;&gt; 0)) КАК Остаток
+		ПО ДатыПоследнихДоговоров.Физлицо = Остаток.Физлицо
+			И ДатыПоследнихДоговоров.Организация = Остаток.Организация
+			И ДатыПоследнихДоговоров.ПериодРегистрации = Остаток.ПериодРегистрации
+
+СГРУППИРОВАТЬ ПО
+	ДатыПоследнихДоговоров.Физлицо,
+	ДатыПоследнихДоговоров.Организация,
+	ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник.ВидДоговора,
+	ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник,
+	ДатыПоследнихДоговоров.ПериодРегистрации,
+	ДоговорНаВыполнениеРаботСФизЛицом.Организация,
+	ВЫБОР
+		КОГДА ДатыПоследнихДоговоров.Физлицо.Пол = ЗНАЧЕНИЕ(Перечисление.ПолФизическихЛиц.Женский)
+			ТОГДА "Female"
+		ИНАЧЕ "Male"
+	КОНЕЦ,
+	РАЗНОСТЬДАТ(ДатыПоследнихДоговоров.Физлицо.ДатаРождения, &amp;КонецПериода, ГОД),
+	ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник.ДатаПриемаНаРаботу,
+	ДоговорНаВыполнениеРаботСФизЛицом.Сотрудник.ДатаУвольнения
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Врем.ПериодРегистрации,
+	Врем.Сотрудник,
+	Врем.Организация,
+	Врем.Физлицо,
+	Врем.ПодразделениеОрганизации,
+	Врем.Должность,
+	Врем.Возраст,
+	Врем.Пол,
+	Врем.StartDate,
+	Врем.LeftDate,
+	Оклады.Период,
+	ЕСТЬNULL(Оклады.Оклад, 0) КАК Оклад,
+	Оклады.ВалютаОклада,
+	ВЫБОР
+		КОГДА Беременные.Сотрудник ЕСТЬ NULL
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ ИСТИНА
+	КОНЕЦ КАК ОтпускПоБеременности
+ИЗ
+	Врем КАК Врем
+		ЛЕВОЕ СОЕДИНЕНИЕ Оклады КАК Оклады
+		ПО Врем.Сотрудник = Оклады.Сотрудник
+		ЛЕВОЕ СОЕДИНЕНИЕ Беременные КАК Беременные
+		ПО Врем.Сотрудник = Беременные.Сотрудник</query>
+		</dataSet>
+		<totalField>
+			<dataPath>Оклад</dataPath>
+			<expression>Сумма(Оклад)</expression>
+		</totalField>
+		<parameter>
+			<name>НачалоПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Начало периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">2017-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>КонецПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Конец периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">2017-12-31T23:59:59</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Период</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Период</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Физлицо.КодПоДРФО</field>
+			<lwsTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Tax ID</v8:content>
+				</v8:item>
+			</lwsTitle>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник.NameFamily</field>
+			<lwsTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Family name</v8:content>
+				</v8:item>
+			</lwsTitle>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник.Name</field>
+			<lwsTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>First Name</v8:content>
+				</v8:item>
+			</lwsTitle>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Возраст</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Пол</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>StartDate</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>LeftDate</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ПодразделениеОрганизации</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Должность</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Период</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ОтпускПоБеременности</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ВалютаОклада</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Оклад</field>
+		</item>
+	</selection>
+	<dataParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>НачалоПериода</dcscor:parameter>
+			<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>КонецПериода</dcscor:parameter>
+			<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+		</dcscor:item>
+	</dataParameters>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>ПодразделениеОрганизации.Name</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Должность.Name</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Сотрудник</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionAttributesPlacement">Separately</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+			<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+			<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemTable">
+		<column>
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Период</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+		</column>
+		<row>
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Сотрудник</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>ФизЛицо.КодПоДРФО</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>Возраст</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>Пол</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>StartDate</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>LeftDate</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>ПодразделениеОрганизации</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>Должность</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>ВалютаОклада</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>ОтпускПоБеременности</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+		</row>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>

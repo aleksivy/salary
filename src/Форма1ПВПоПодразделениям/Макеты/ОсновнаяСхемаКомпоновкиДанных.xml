@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сумма</dataPath>
+				<field>Сумма</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Сумма</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПодразделениеОрганизации</dataPath>
+				<field>ПодразделениеОрганизации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Подразделение организации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КвоЧасов</dataPath>
+				<field>КвоЧасов</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Кво часов</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>_1020</dataPath>
+				<field>_1020</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>1020</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>_1070</dataPath>
+				<field>_1070</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>1070</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СуммаШтат</dataPath>
+				<field>СуммаШтат</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Сумма штат</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СуммаНеФОТ</dataPath>
+				<field>СуммаНеФОТ</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Сумма не ФОТ</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>_1060</dataPath>
+				<field>_1060</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>1060</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>_1030</dataPath>
+				<field>_1030</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>1030</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Начисления.Сотрудник,
+	ВЫБОР
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель
+	КОНЕЦ КАК ПодразделениеОрганизации,
+	Начисления.Результат КАК Сумма,
+	ВЫБОР
+		КОГДА Начисления.Сотрудник.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ОсновноеМестоРаботы)
+			ТОГДА Начисления.Результат
+		КОГДА Начисления.Сотрудник.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ВнутреннееСовместительство)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК СуммаШтат,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда В ИЕРАРХИИ (ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НеФОТ))
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НеФОТ)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда ЕСТЬ NULL
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ПустаяСсылка)
+			ТОГДА ЛОЖЬ
+		ИНАЧЕ ИСТИНА
+	КОНЕЦ КАК ЭтоФОТ,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда В ИЕРАРХИИ (ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НеФОТ))
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НеФОТ)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда ЕСТЬ NULL
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ПустаяСсылка)
+			ТОГДА 0
+		ИНАЧЕ Начисления.Результат
+	КОНЕЦ КАК СуммаФОТ,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда В ИЕРАРХИИ (ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НеФОТ))
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НеФОТ)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда ЕСТЬ NULL
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ПустаяСсылка)
+			ТОГДА 0
+		ИНАЧЕ ВЫБОР
+				КОГДА Начисления.Сотрудник.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ОсновноеМестоРаботы)
+						ИЛИ Начисления.Сотрудник.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ВнутреннееСовместительство)
+					ТОГДА Начисления.Результат
+				ИНАЧЕ 0
+			КОНЕЦ
+	КОНЕЦ КАК СуммаФОТ_Штат,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда В ИЕРАРХИИ (ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НеФОТ))
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НеФОТ)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда ЕСТЬ NULL
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ПустаяСсылка)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК СуммаНеФОТ,
+	Начисления.ВидРасчета.ДоходНДФЛ КАК КодНДФЛ
+ПОМЕСТИТЬ ВремТаблица
+ИЗ
+	РегистрРасчета.ОсновныеНачисленияРаботниковОрганизаций КАК Начисления
+ГДЕ
+	Начисления.ПериодДействия МЕЖДУ НАЧАЛОПЕРИОДА(&amp;ДатаВПериоде, МЕСЯЦ) И КОНЕЦПЕРИОДА(&amp;КонецПериода, МЕСЯЦ)
+	И Начисления.Активность
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВремТаблица.ПодразделениеОрганизации,
+	ВремТаблица.КодНДФЛ,
+	СУММА(ВремТаблица.СуммаФОТ) / СУММА(ВремТаблица.Сумма) КАК Коэффициент,
+	СУММА(ВремТаблица.Сумма) КАК Сумма,
+	СУММА(ВремТаблица.СуммаФОТ) КАК СуммаФОТ,
+	СУММА(ВремТаблица.СуммаФОТ_Штат) КАК СуммаФОТ_Штат,
+	СУММА(ВремТаблица.СуммаНеФОТ) КАК СуммаНеФОТ,
+	СУММА(ВремТаблица.СуммаШтат) КАК СуммаШтат
+ПОМЕСТИТЬ Доходы1
+ИЗ
+	ВремТаблица КАК ВремТаблица
+ГДЕ
+	(НЕ ВремТаблица.Сумма = 0
+			ИЛИ НЕ ВремТаблица.СуммаФОТ = 0
+			ИЛИ НЕ ВремТаблица.СуммаНеФОТ = 0
+			ИЛИ НЕ ВремТаблица.СуммаШтат = 0)
+
+СГРУППИРОВАТЬ ПО
+	ВремТаблица.КодНДФЛ,
+	ВремТаблица.ПодразделениеОрганизации
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВремТаблица.ПодразделениеОрганизации,
+	СУММА(ВремТаблица.Сумма) КАК Сумма,
+	СУММА(ВремТаблица.СуммаФОТ) КАК СуммаФОТ,
+	СУММА(ВремТаблица.СуммаФОТ_Штат) КАК СуммаФОТ_Штат,
+	СУММА(ВремТаблица.СуммаНеФОТ) КАК СуммаНеФОТ,
+	СУММА(ВремТаблица.СуммаШтат) КАК СуммаШтат
+ПОМЕСТИТЬ Доходы
+ИЗ
+	ВремТаблица КАК ВремТаблица
+ГДЕ
+	(НЕ ВремТаблица.Сумма = 0
+			ИЛИ НЕ ВремТаблица.СуммаФОТ = 0
+			ИЛИ НЕ ВремТаблица.СуммаНеФОТ = 0
+			ИЛИ НЕ ВремТаблица.СуммаШтат = 0)
+
+СГРУППИРОВАТЬ ПО
+	ВремТаблица.ПодразделениеОрганизации
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВЫБОР
+		КОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации
+		КОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель
+		КОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель
+	КОНЕЦ КАК ПодразделениеОрганизации,
+	Рег.ДоходНДФЛ КАК КодНДФЛ,
+	СУММА(Рег.Налог) КАК Налог
+ПОМЕСТИТЬ НДФЛ1
+ИЗ
+	РегистрНакопления.ВзаиморасчетыПоНДФЛ КАК Рег
+ГДЕ
+	Рег.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Приход)
+	И Рег.НалоговыйПериод МЕЖДУ НАЧАЛОПЕРИОДА(&amp;ДатаВПериоде, МЕСЯЦ) И КОНЕЦПЕРИОДА(&amp;КонецПериода, МЕСЯЦ)
+	И НЕ Рег.Налог = 0
+
+СГРУППИРОВАТЬ ПО
+	Рег.ДоходНДФЛ,
+	ВЫБОР
+		КОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации
+		КОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель
+		КОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Рег.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель
+	КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	НДФЛ1.ПодразделениеОрганизации,
+	СУММА(НДФЛ1.Налог * Доходы1.Коэффициент) КАК Налог
+ПОМЕСТИТЬ НДФЛ
+ИЗ
+	НДФЛ1 КАК НДФЛ1
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Доходы1 КАК Доходы1
+		ПО НДФЛ1.ПодразделениеОрганизации = Доходы1.ПодразделениеОрганизации
+			И НДФЛ1.КодНДФЛ = Доходы1.КодНДФЛ
+
+СГРУППИРОВАТЬ ПО
+	НДФЛ1.ПодразделениеОрганизации
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Начисления.ВидРасчета.ВидИспользованияРабочегоВремени КАК ВидИспользованияРабочегоВремени,
+	СУММА(ВЫБОР
+			КОГДА Начисления.ОтработаноЧасов = 0
+				ТОГДА Начисления.НормаЧасов
+			ИНАЧЕ Начисления.ОтработаноЧасов
+		КОНЕЦ) КАК КвоЧасов,
+	ВЫБОР
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель
+	КОНЕЦ КАК ПодразделениеОрганизации
+ПОМЕСТИТЬ НачисленияВРазрезеВидовИспользованияРабочегоВремени
+ИЗ
+	РегистрРасчета.ОсновныеНачисленияРаботниковОрганизаций КАК Начисления
+ГДЕ
+	Начисления.ПериодДействия МЕЖДУ НАЧАЛОПЕРИОДА(&amp;ДатаВПериоде, МЕСЯЦ) И КОНЕЦПЕРИОДА(&amp;КонецПериода, МЕСЯЦ)
+	И (Начисления.Сотрудник.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ОсновноеМестоРаботы)
+			ИЛИ Начисления.Сотрудник.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятостиВОрганизации.ВнутреннееСовместительство))
+	И НЕ Начисления.ВидРасчета.ВидИспользованияРабочегоВремени В (ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетОбИспользованииРабочегоВремени_НеОтработаноВременнаяНетрудоспособность))
+	И НЕ Начисления.ОплаченоДнейЧасов = 0
+	И Начисления.Активность
+
+СГРУППИРОВАТЬ ПО
+	Начисления.ВидРасчета.ДоходНДФЛ,
+	Начисления.ВидРасчета.ВидИспользованияРабочегоВремени,
+	ВЫБОР
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель
+	КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Начисления.ПодразделениеОрганизации,
+	СУММА(Начисления.КвоЧасов) КАК КвоЧасов,
+	СУММА(ВЫБОР
+			КОГДА Начисления.ВидИспользованияРабочегоВремени = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетОбИспользованииРабочегоВремени_Отработано)
+					ИЛИ Начисления.ВидИспользованияРабочегоВремени = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетОбИспользованииРабочегоВремени_ОтработаноСверхурочно)
+				ТОГДА Начисления.КвоЧасов
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КвоЧасовОтработано
+ПОМЕСТИТЬ Часы
+ИЗ
+	НачисленияВРазрезеВидовИспользованияРабочегоВремени КАК Начисления
+
+СГРУППИРОВАТЬ ПО
+	Начисления.ПодразделениеОрганизации
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Доходы.ПодразделениеОрганизации,
+	Доходы.СуммаФОТ КАК _1020,
+	НДФЛ.Налог КАК _1030,
+	Часы.КвоЧасовОтработано КАК _1060,
+	Доходы.СуммаФОТ_Штат КАК _1070,
+	Доходы.Сумма КАК Сумма,
+	Доходы.СуммаНеФОТ КАК СуммаНеФОТ,
+	Доходы.СуммаШтат КАК СуммаШтат,
+	Часы.КвоЧасов КАК КвоЧасов
+ИЗ
+	Доходы КАК Доходы
+		ЛЕВОЕ СОЕДИНЕНИЕ НДФЛ КАК НДФЛ
+		ПО Доходы.ПодразделениеОрганизации = НДФЛ.ПодразделениеОрганизации
+		ЛЕВОЕ СОЕДИНЕНИЕ Часы КАК Часы
+		ПО Доходы.ПодразделениеОрганизации = Часы.ПодразделениеОрганизации</query>
+		</dataSet>
+		<totalField>
+			<dataPath>_1020</dataPath>
+			<expression>Сумма(_1020)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>_1030</dataPath>
+			<expression>Сумма(_1030)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>_1060</dataPath>
+			<expression>Сумма(_1060)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>_1070</dataPath>
+			<expression>Сумма(_1070)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>КвоЧасов</dataPath>
+			<expression>Сумма(КвоЧасов)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>Сумма</dataPath>
+			<expression>Сумма(Сумма)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>СуммаНеФОТ</dataPath>
+			<expression>Сумма(СуммаНеФОТ)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>СуммаШтат</dataPath>
+			<expression>Сумма(СуммаШтат)</expression>
+		</totalField>
+		<parameter>
+			<name>ДатаВПериоде</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Дата в периоде</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>КонецПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Конец периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>ПодразделениеОрганизации</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>_1020</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>_1030</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>_1060</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>_1070</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Сумма</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СуммаНеФОТ</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СуммаШтат</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоЧасов</field>
+		</item>
+	</selection>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>ПодразделениеОрганизации</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<outputParameters/>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>ПодразделениеОрганизации</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>

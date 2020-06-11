@@ -1,0 +1,16 @@
+﻿02ad7eb8-aaa0-4e72-8617-1f4549446165-->und\02ad7eb8-aaa0-4e72-8617-1f4549446165
+201e5b3d-a78d-42f7-8488-566b037752c3-->und\201e5b3d-a78d-42f7-8488-566b037752c3
+201e5b3d-a78d-42f7-8488-566b037752c3.0-->und\201e5b3d-a78d-42f7-8488-566b037752c3.0
+7a84f5c1-ea27-4f0d-9d0d-3bfe1a75f35a-->und\7a84f5c1-ea27-4f0d-9d0d-3bfe1a75f35a
+7a84f5c1-ea27-4f0d-9d0d-3bfe1a75f35a.0-->Form\ФормаРасчетнаяВедомость
+7a84f5c1-ea27-4f0d-9d0d-3bfe1a75f35a.1-->und\7a84f5c1-ea27-4f0d-9d0d-3bfe1a75f35a.1
+copyinfo-->und\copyinfo
+d32fdf42-8bf6-4c2a-b951-9ec1eba584f4-->und\d32fdf42-8bf6-4c2a-b951-9ec1eba584f4
+d32fdf42-8bf6-4c2a-b951-9ec1eba584f4.0-->Form\ФормаНастройки
+d32fdf42-8bf6-4c2a-b951-9ec1eba584f4.1-->und\d32fdf42-8bf6-4c2a-b951-9ec1eba584f4.1
+fdc17a82-2f22-4caa-ab8c-bc5b71b15de6.0\info-->und\fdc17a82-2f22-4caa-ab8c-bc5b71b15de6.0\info
+fdc17a82-2f22-4caa-ab8c-bc5b71b15de6.0\text-->ObjectModule.bsl
+fdc17a82-2f22-4caa-ab8c-bc5b71b15de6.1-->und\fdc17a82-2f22-4caa-ab8c-bc5b71b15de6.1
+root-->und\root
+version-->und\version
+versions-->und\versions

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаОкончания2</dataPath>
+				<field>ДатаОкончания2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата окончания2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ДФ=dd.MM.yyyy</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаНачала2</dataPath>
+				<field>ДатаНачала2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата начала2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ДФ=dd.MM.yyyy</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаНачала</dataPath>
+				<field>ДатаНачала</field>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ДФ=dd.MM.yyyy</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаОкончания</dataPath>
+				<field>ДатаОкончания</field>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ДФ=dd.MM.yyyy</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка2</dataPath>
+				<field>Ссылка2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Ссылка2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Ссылка</dataPath>
+				<field>Ссылка</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сотрудник</dataPath>
+				<field>Сотрудник</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Признак</dataPath>
+				<field>Признак</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Признак</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	ДокТЧ.Ссылка,
+	ДокТЧ.Сотрудник,
+	ДокТЧ.ДатаНачала,
+	ДокТЧ.ДатаОкончания
+ПОМЕСТИТЬ ОтпускаВсе
+ИЗ
+	Документ.ОтпускаОрганизаций.РаботникиОрганизации КАК ДокТЧ
+ГДЕ
+	ДокТЧ.Ссылка.Проведен
+
+СГРУППИРОВАТЬ ПО
+	ДокТЧ.ДатаНачала,
+	ДокТЧ.Сотрудник,
+	ДокТЧ.Ссылка,
+	ДокТЧ.ДатаОкончания
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Отпуска1.Сотрудник,
+	Отпуска1.Ссылка,
+	Отпуска1.ДатаНачала,
+	Отпуска1.ДатаОкончания,
+	Отпуска2.Ссылка КАК Ссылка2,
+	Отпуска2.ДатаНачала КАК ДатаНачала2,
+	Отпуска2.ДатаОкончания КАК ДатаОкончания2
+ПОМЕСТИТЬ Отпуска
+ИЗ
+	ОтпускаВсе КАК Отпуска1
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ОтпускаВсе КАК Отпуска2
+		ПО Отпуска1.Сотрудник = Отпуска2.Сотрудник
+			И Отпуска1.Ссылка &lt; Отпуска2.Ссылка
+			И (Отпуска1.ДатаНачала &gt;= Отпуска2.ДатаНачала
+					И Отпуска1.ДатаНачала &lt;= Отпуска2.ДатаОкончания
+				ИЛИ Отпуска1.ДатаОкончания &gt;= Отпуска2.ДатаНачала
+					И Отпуска1.ДатаОкончания &lt;= Отпуска2.ДатаОкончания)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДокТЧ.Ссылка,
+	ДокТЧ.НомерСтроки,
+	ДокТЧ.Сотрудник,
+	ДокТЧ.ДатаНачала,
+	ДокТЧ.ДатаОкончания
+ПОМЕСТИТЬ НачисленияВсе
+ИЗ
+	Документ.НачислениеОтпускаРаботникамОрганизаций.Начисления КАК ДокТЧ
+ГДЕ
+	ДокТЧ.Ссылка.Проведен
+	И ДокТЧ.Результат &gt; 0
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Отпуска1.Сотрудник,
+	Отпуска1.Ссылка,
+	Отпуска1.ДатаНачала,
+	Отпуска1.ДатаОкончания,
+	Отпуска2.Ссылка КАК Ссылка2,
+	Отпуска2.ДатаНачала КАК ДатаНачала2,
+	Отпуска2.ДатаОкончания КАК ДатаОкончания2
+ПОМЕСТИТЬ Начисления
+ИЗ
+	НачисленияВсе КАК Отпуска1
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ НачисленияВсе КАК Отпуска2
+		ПО Отпуска1.Сотрудник = Отпуска2.Сотрудник
+			И (Отпуска1.Ссылка &lt; Отпуска2.Ссылка
+				ИЛИ Отпуска1.Ссылка = Отпуска2.Ссылка
+					И Отпуска1.НомерСтроки &lt; Отпуска2.НомерСтроки)
+			И (Отпуска1.ДатаНачала &gt;= Отпуска2.ДатаНачала
+					И Отпуска1.ДатаНачала &lt;= Отпуска2.ДатаОкончания
+				ИЛИ Отпуска1.ДатаОкончания &gt;= Отпуска2.ДатаНачала
+					И Отпуска1.ДатаОкончания &lt;= Отпуска2.ДатаОкончания)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	1 КАК Признак,
+	Отпуска.Сотрудник,
+	Отпуска.Ссылка,
+	Отпуска.ДатаНачала,
+	Отпуска.ДатаОкончания,
+	Отпуска.Ссылка2,
+	Отпуска.ДатаНачала2,
+	Отпуска.ДатаОкончания2
+ИЗ
+	Отпуска КАК Отпуска
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	2,
+	Начисления.Сотрудник,
+	Начисления.Ссылка,
+	Начисления.ДатаНачала,
+	Начисления.ДатаОкончания,
+	Начисления.Ссылка2,
+	Начисления.ДатаНачала2,
+	Начисления.ДатаОкончания2
+ИЗ
+	Начисления КАК Начисления</query>
+		</dataSet>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Ссылка</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДатаНачала</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДатаОкончания</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Ссылка2</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДатаНачала2</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДатаОкончания2</field>
+		</item>
+	</selection>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Признак</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>ДатаНачала</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>ДатаОкончания</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Сотрудник</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Ссылка</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<outputParameters/>
+	<item xsi:type="StructureItemGroup">
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>

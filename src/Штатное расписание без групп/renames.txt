@@ -1,0 +1,9 @@
+﻿794c6518-8802-45a7-9cd1-030f85c795a0-->und\794c6518-8802-45a7-9cd1-030f85c795a0
+794c6518-8802-45a7-9cd1-030f85c795a0.0-->Form\ФормаОтчета
+7df61ed8-0869-48c5-8ad0-682272c54891-->und\7df61ed8-0869-48c5-8ad0-682272c54891
+7df61ed8-0869-48c5-8ad0-682272c54891.0-->und\7df61ed8-0869-48c5-8ad0-682272c54891.0
+9ca941d8-7c48-46c0-bbc0-9011c35623bd-->und\9ca941d8-7c48-46c0-bbc0-9011c35623bd
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

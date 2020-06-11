@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5090_1</dataPath>
+				<field>П5090_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5090</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сумма</dataPath>
+				<field>Сумма</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Сумма</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5060_1</dataPath>
+				<field>П5060_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5060</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Подразделение</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5030_1</dataPath>
+				<field>П5030_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5030</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сотрудник</dataPath>
+				<field>Сотрудник</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтатьяДекларации</dataPath>
+				<field>СтатьяДекларации</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Статья декларации</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5051_1</dataPath>
+				<field>П5051_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5051</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5070_1</dataPath>
+				<field>П5070_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5070</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5040_1</dataPath>
+				<field>П5040_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5040</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5080_1</dataPath>
+				<field>П5080_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5080</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5050_1</dataPath>
+				<field>П5050_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5050</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5052_1</dataPath>
+				<field>П5052_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5052</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>П5020_1</dataPath>
+				<field>П5020_1</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>П5020</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидРасчета</dataPath>
+				<field>ВидРасчета</field>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Размещение</parameter>
+						<value xsi:type="DataCompositionTextPlacementType">Cut</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Начисления.Сотрудник,
+	ВЫБОР
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель
+		КОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА Начисления.Сотрудник.ТекущееПодразделениеОрганизации.Родитель.Родитель
+		ИНАЧЕ Начисления.Сотрудник.ТекущееПодразделениеОрганизации
+	КОНЕЦ КАК Подразделение,
+	Начисления.ВидРасчета.ПоказателиВидовОплатыТруда КАК СтатьяДекларации,
+	Начисления.ВидРасчета КАК ВидРасчета,
+	Начисления.Результат КАК Сумма,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_ФОТ)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5020_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_ФОТ_ДополнЗП)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НадбавкиКОкладам)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_Премии)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_КомпенНевыплачЗП)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_КомпенРостЦен)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_Отпуск)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5030_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_НадбавкиКОкладам)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5040_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_Премии)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5050_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_КомпенНевыплачЗП)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5052_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_КомпенРостЦен)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5051_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_ФОТ_Компенсация)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_МатПомощь)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_СоцЛьготы)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_ФОТ_НеотработанноеВремя)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5060_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_МатПомощь)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5070_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_СоцЛьготы)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5080_1,
+	ВЫБОР
+		КОГДА Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_ФОТ_НеотработанноеВремя)
+				ИЛИ Начисления.ВидРасчета.ПоказателиВидовОплатыТруда = ЗНАЧЕНИЕ(Справочник.СтатьиНалоговыхДеклараций.ОтчетПоТруду_Отпуск)
+			ТОГДА Начисления.Результат
+		ИНАЧЕ 0
+	КОНЕЦ КАК П5090_1
+ИЗ
+	РегистрРасчета.ОсновныеНачисленияРаботниковОрганизаций КАК Начисления
+ГДЕ
+	Начисления.ПериодДействия МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И Начисления.Организация = &amp;парамОрганизация
+	И (Начисления.Сотрудник.ВидЗанятости = &amp;ОсновноеМестоРаботы
+			ИЛИ Начисления.Сотрудник.ВидЗанятости = &amp;ВнутреннееСовместительство)
+	И Начисления.Активность
+	И НЕ Начисления.Результат = 0</query>
+		</dataSet>
+		<totalField>
+			<dataPath>П5020_1</dataPath>
+			<expression>Сумма(П5020_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5030_1</dataPath>
+			<expression>Сумма(П5030_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5040_1</dataPath>
+			<expression>Сумма(П5040_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5050_1</dataPath>
+			<expression>Сумма(П5050_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5051_1</dataPath>
+			<expression>Сумма(П5051_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5052_1</dataPath>
+			<expression>Сумма(П5052_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5060_1</dataPath>
+			<expression>Сумма(П5060_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5070_1</dataPath>
+			<expression>Сумма(П5070_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5080_1</dataPath>
+			<expression>Сумма(П5080_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>П5090_1</dataPath>
+			<expression>Сумма(П5090_1)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>Сумма</dataPath>
+			<expression>Сумма(Сумма)</expression>
+		</totalField>
+		<parameter>
+			<name>ВнутреннееСовместительство</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Внутреннее совместительство</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">9cff6942-7db7-48a3-ab2f-fda8ceac766c</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>КонецПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Конец периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>НачалоПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Начало периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ОсновноеМестоРаботы</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Основное место работы</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">9cff6942-7db7-48a3-ab2f-fda8ceac766c</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>парамОрганизация</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Парам организация</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">a86305d7-b8a1-4312-901f-2ade3efdb351</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Подразделение</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ВидРасчета</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Сумма</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5020_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5030_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5040_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5050_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5051_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5052_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5060_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5070_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5080_1</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>П5090_1</field>
+		</item>
+	</selection>
+	<dataParameters/>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Подразделение</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>ВидРасчета</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>СтатьяДекларации</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:use>false</dcscor:use>
+			<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+			<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+			<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>Подразделение</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+		<item xsi:type="StructureItemGroup">
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>ВидРасчета</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</item>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>
