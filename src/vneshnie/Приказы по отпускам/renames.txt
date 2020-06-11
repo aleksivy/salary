@@ -1,0 +1,9 @@
+﻿11dabadb-c5b8-4c2b-b532-538e9e981245-->und\11dabadb-c5b8-4c2b-b532-538e9e981245
+5e24a2d6-7631-478b-9e2f-7efe4ec1baa1-->und\5e24a2d6-7631-478b-9e2f-7efe4ec1baa1
+5e24a2d6-7631-478b-9e2f-7efe4ec1baa1.0-->und\5e24a2d6-7631-478b-9e2f-7efe4ec1baa1.0
+9d49a611-71dd-4849-9bfe-b5596e4aedf6-->und\9d49a611-71dd-4849-9bfe-b5596e4aedf6
+9d49a611-71dd-4849-9bfe-b5596e4aedf6.0-->Form\ФормаОтчета
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

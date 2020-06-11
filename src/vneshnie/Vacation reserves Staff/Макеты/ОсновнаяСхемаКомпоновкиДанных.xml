@@ -1,0 +1,803 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КвоДнейОстаток</dataPath>
+				<field>КвоДнейОстаток</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Остаток, дней</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Подразделение</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Сотрудник</dataPath>
+				<field>Сотрудник</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КодГленкор</dataPath>
+				<field>КодГленкор</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Код Гленкор</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ДатаПриема</dataPath>
+				<field>ДатаПриема</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Дата приема</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КвоДнейДоначислено</dataPath>
+				<field>КвоДнейДоначислено</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Доначислено, дней</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КвоДнейИспользовано</dataPath>
+				<field>КвоДнейИспользовано</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Использовано, дней</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КвоДнейНачальныйОстаток</dataPath>
+				<field>КвоДнейНачальныйОстаток</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Нач.остаток, дней</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КвоДнейНачислено</dataPath>
+				<field>КвоДнейНачислено</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Начислено, дней</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Период</dataPath>
+				<field>Период</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение2</dataPath>
+				<field>Подразделение2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Подразделение2</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидРасчета</dataPath>
+				<field>ВидРасчета</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Вид расчета</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтатьяЗатрат</dataPath>
+				<field>СтатьяЗатрат</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Статья затрат</d5p1:content>
+					</d5p1:item>
+				</title>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВидОтпуска</dataPath>
+				<field>ВидОтпуска</field>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Рег.Сотрудник,
+	Рег.КвоДней КАК КоличествоДнейОтпускаВГод
+ПОМЕСТИТЬ НормыОтпусковПоСотрудникам
+ИЗ
+	РегистрСведений.ггуНормыОтпусков.СрезПоследних(
+			КОНЕЦПЕРИОДА(&amp;Дата, ДЕНЬ),
+			(ВидОтпуска = &amp;ВидОтпуска
+				ИЛИ &amp;ВидОтпуска = ЗНАЧЕНИЕ(Справочник.ВидыОтпусков.ПустаяСсылка)
+					И ВидОтпуска = ЗНАЧЕНИЕ(Справочник.ВидыОтпусков.ЕжегодныйОсновной))
+				И НЕ Сотрудник = ЗНАЧЕНИЕ(Справочник.СотрудникиОрганизаций.ПустаяСсылка)) КАК Рег
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Рег.КвоДней КАК КоличествоДнейОтпускаВГод
+ПОМЕСТИТЬ НормыОтпусковПоВсем
+ИЗ
+	РегистрСведений.ггуНормыОтпусков.СрезПоследних(
+			КОНЕЦПЕРИОДА(&amp;Дата, ДЕНЬ),
+			(ВидОтпуска = &amp;ВидОтпуска
+				ИЛИ &amp;ВидОтпуска = ЗНАЧЕНИЕ(Справочник.ВидыОтпусков.ПустаяСсылка)
+					И ВидОтпуска = ЗНАЧЕНИЕ(Справочник.ВидыОтпусков.ЕжегодныйОсновной))
+				И Сотрудник = ЗНАЧЕНИЕ(Справочник.СотрудникиОрганизаций.ПустаяСсылка)) КАК Рег
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Работники.Организация КАК Организация,
+	Работники.Сотрудник КАК Сотрудник
+ПОМЕСТИТЬ Уволенные
+ИЗ
+	РегистрСведений.РаботникиОрганизаций.СрезПоследних(НАЧАЛОПЕРИОДА(ДОБАВИТЬКДАТЕ(КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ, 1), МЕСЯЦ), ) КАК Работники
+ГДЕ
+	(Работники.ЗанимаемыхСтавок = 0
+			ИЛИ Работники.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.ПричиныИзмененияСостояния.Увольнение))
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Рег.Предел КАК Предел
+ПОМЕСТИТЬ ПределЕСВ1
+ИЗ
+	РегистрСведений.СведенияОВзносахВФонды.СрезПоследних(КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ), Налог = ЗНАЧЕНИЕ(Справочник.Налоги.ЕСВРаботники)) КАК Рег
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВЫБОР
+		КОГДА НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ) &lt; ДАТАВРЕМЯ(2015, 9, 1)
+			ТОГДА 20706
+		КОГДА НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ) &lt; ДАТАВРЕМЯ(2015, 12, 1)
+			ТОГДА 23426
+		КОГДА НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ) &lt; ДАТАВРЕМЯ(2016, 5, 1)
+			ТОГДА 34450
+		ИНАЧЕ 36250
+	КОНЕЦ КАК Предел
+ПОМЕСТИТЬ ПределЕСВ2
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПределЕСВ.Предел
+ПОМЕСТИТЬ ПределЕСВ3
+ИЗ
+	ПределЕСВ1 КАК ПределЕСВ
+
+СГРУППИРОВАТЬ ПО
+	ПределЕСВ.Предел
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПределЕСВ.Предел
+ИЗ
+	ПределЕСВ2 КАК ПределЕСВ
+
+СГРУППИРОВАТЬ ПО
+	ПределЕСВ.Предел
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	МАКСИМУМ(ПределЕСВ.Предел) КАК Предел
+ПОМЕСТИТЬ ПределЕСВ
+ИЗ
+	ПределЕСВ3 КАК ПределЕСВ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Рег.Сотрудник,
+	Рег.Период,
+	Рег.ПериодЗавершения
+ПОМЕСТИТЬ Беременные
+ИЗ
+	РегистрСведений.СостояниеРаботниковОрганизаций.СрезПоследних(
+			КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ),
+			Активность
+				И (Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияРаботникаОрганизации.ОтпускПоУходуЗаРебенком)
+					ИЛИ Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияРаботникаОрганизации.ОтпускПоБеременностиИРодам))
+				И СостояниеЗавершения = ЗНАЧЕНИЕ(Перечисление.СостоянияРаботникаОрганизации.Работает)) КАК Рег
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Рег.Сотрудник,
+	Рег.ПодразделениеОрганизации КАК Подразделение,
+	Рег.ПодразделениеОрганизации.Родитель КАК ПодразделениеРодитель
+ПОМЕСТИТЬ Подразделения
+ИЗ
+	РегистрСведений.РаботникиОрганизаций.СрезПоследних(КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ), ) КАК Рег
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Рег.Организация,
+	Рег.Сотрудник,
+	Рег.Период КАК ДатаПриема,
+	Рег.Период КАК Период
+ПОМЕСТИТЬ Периоды
+ИЗ
+	РегистрСведений.РаботникиОрганизаций КАК Рег
+ГДЕ
+	Рег.Активность
+	И Рег.Период &gt;= НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ)
+	И Рег.Период &lt;= КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ)
+	И Рег.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.ПричиныИзмененияСостояния.ПриемНаРаботу)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Рег.Организация,
+	Рег.Сотрудник,
+	Рег.Период,
+	ВЫБОР
+		КОГДА ДОБАВИТЬКДАТЕ(НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ, ДЕНЬ(Рег.Период) - 2) &gt; КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ)
+			ТОГДА НАЧАЛОПЕРИОДА(НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ)
+		КОГДА ДОБАВИТЬКДАТЕ(НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ, ДЕНЬ(Рег.Период) - 2) &lt; НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ)
+			ТОГДА НАЧАЛОПЕРИОДА(КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ)
+		ИНАЧЕ ДОБАВИТЬКДАТЕ(НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ, ДЕНЬ(Рег.Период) - 2)
+	КОНЕЦ
+ИЗ
+	РегистрСведений.РаботникиОрганизаций КАК Рег
+ГДЕ
+	Рег.Активность
+	И Рег.Период &lt; НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ)
+	И Рег.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.ПричиныИзмененияСостояния.ПриемНаРаботу)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Работники.Организация КАК Организация,
+	Работники.Сотрудник КАК Сотрудник,
+	ЕСТЬNULL(Остаток.КвоДнейНачальныйОстаток, 0) КАК КвоДнейНачальныйОстаток,
+	ЕСТЬNULL(Остаток.КвоДнейПриход, 0) КАК КвоДнейПриход,
+	ЕСТЬNULL(Остаток.КвоДнейРасход, 0) КАК КвоДнейРасход,
+	ЕСТЬNULL(Остаток.КвоДнейНачальныйОстаток, 0) + ЕСТЬNULL(Остаток.КвоДнейПриход, 0) - ЕСТЬNULL(Остаток.КвоДнейРасход, 0) КАК КвоДнейОстаток,
+	ВЫБОР
+		КОГДА &amp;ВидОтпуска = ЗНАЧЕНИЕ(Справочник.ВидыОтпусков.ЕжегодныйОсновной)
+				ИЛИ &amp;ВидОтпуска = ЗНАЧЕНИЕ(Справочник.ВидыОтпусков.ПустаяСсылка)
+			ТОГДА ВЫБОР
+					КОГДА НормыОтпусковПоСотрудникам.КоличествоДнейОтпускаВГод ЕСТЬ NULL 
+						ТОГДА НормыОтпусковПоВсем.КоличествоДнейОтпускаВГод
+					ИНАЧЕ НормыОтпусковПоСотрудникам.КоличествоДнейОтпускаВГод
+				КОНЕЦ
+		ИНАЧЕ 0
+	КОНЕЦ КАК КоличествоДнейОтпускаВГод
+ПОМЕСТИТЬ ОстатокДней
+ИЗ
+	РегистрСведений.РаботникиОрганизаций.СрезПоследних(КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ), ) КАК Работники
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.СернаДниОтпуска.ОстаткиИОбороты(
+				НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ),
+				КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ),
+				,
+				,
+				ВидОтпуска = &amp;ВидОтпуска
+					ИЛИ &amp;ВидОтпуска = ЗНАЧЕНИЕ(Справочник.ВидыОтпусков.ПустаяСсылка)) КАК Остаток
+		ПО Работники.Организация = Остаток.Организация
+			И Работники.Сотрудник = Остаток.Сотрудник
+		ЛЕВОЕ СОЕДИНЕНИЕ Уволенные КАК Уволенные
+		ПО Работники.Организация = Уволенные.Организация
+			И Работники.Сотрудник = Уволенные.Сотрудник
+		ЛЕВОЕ СОЕДИНЕНИЕ НормыОтпусковПоСотрудникам КАК НормыОтпусковПоСотрудникам
+		ПО Работники.Сотрудник = НормыОтпусковПоСотрудникам.Сотрудник,
+	НормыОтпусковПоВсем КАК НормыОтпусковПоВсем
+ГДЕ
+	Работники.ЗанимаемыхСтавок &gt; 0
+	И Уволенные.Сотрудник ЕСТЬ NULL 
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Остаток.Сотрудник,
+	Периоды.ДатаПриема КАК ДатаПриема,
+	Периоды.Период КАК Период,
+	ЕСТЬNULL(Подразделения.Подразделение, ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)) КАК Подразделение,
+	ЕСТЬNULL(Подразделения.ПодразделениеРодитель, ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)) КАК ПодразделениеРодитель,
+	Остаток.КвоДнейНачальныйОстаток КАК КвоДнейНачальныйОстаток,
+	Остаток.КвоДнейПриход КАК КвоДнейНачислено,
+	Остаток.КвоДнейРасход КАК КвоДнейИспользовано,
+	ВЫБОР
+		КОГДА Беременные.Период ЕСТЬ NULL 
+				ИЛИ НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ) &gt; Беременные.ПериодЗавершения
+				ИЛИ КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ) &lt; Беременные.Период
+			ТОГДА ВЫРАЗИТЬ(Остаток.КоличествоДнейОтпускаВГод * РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(ЕСТЬNULL(Периоды.Период, ДАТАВРЕМЯ(1, 1, 1)), ДЕНЬ), НАЧАЛОПЕРИОДА(КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ), ДЕНЬ) / (РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(НАЧАЛОПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ), НАЧАЛОПЕРИОДА(КОНЕЦПЕРИОДА(&amp;Дата, МЕСЯЦ), ДЕНЬ), ДЕНЬ) + 1) / 12 КАК ЧИСЛО(12, 0))
+		ИНАЧЕ 0
+	КОНЕЦ КАК КвоДнейДоначислено,
+	Остаток.КвоДнейОстаток КАК КвоДнейОстаток,
+	Беременные.Период КАК Период1,
+	Беременные.ПериодЗавершения
+ПОМЕСТИТЬ Врем
+ИЗ
+	ОстатокДней КАК Остаток
+		ЛЕВОЕ СОЕДИНЕНИЕ Периоды КАК Периоды
+		ПО Остаток.Организация = Периоды.Организация
+			И Остаток.Сотрудник = Периоды.Сотрудник
+		ЛЕВОЕ СОЕДИНЕНИЕ Подразделения КАК Подразделения
+		ПО Остаток.Сотрудник = Подразделения.Сотрудник
+		ЛЕВОЕ СОЕДИНЕНИЕ Беременные КАК Беременные
+		ПО Остаток.Сотрудник = Беременные.Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Врем.Сотрудник,
+	Врем.ДатаПриема,
+	Врем.Период КАК Период,
+	Врем.Сотрудник.КодГленкор КАК КодГленкор,
+	Врем.Подразделение КАК Подразделение,
+	ВЫБОР
+		КОГДА Врем.ПодразделениеРодитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+				ИЛИ Врем.ПодразделениеРодитель = &amp;Серна
+			ТОГДА Врем.Подразделение
+		ИНАЧЕ Врем.ПодразделениеРодитель
+	КОНЕЦ КАК Подразделение2,
+	Врем.КвоДнейНачальныйОстаток КАК КвоДнейНачальныйОстаток,
+	Врем.КвоДнейНачислено КАК КвоДнейНачислено,
+	Врем.КвоДнейИспользовано КАК КвоДнейИспользовано,
+	Врем.КвоДнейДоначислено КАК КвоДнейДоначислено,
+	Врем.КвоДнейОстаток + Врем.КвоДнейДоначислено КАК КвоДнейОстаток
+ПОМЕСТИТЬ Врем2
+ИЗ
+	Врем КАК Врем
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗНАЧЕНИЕ(ПланВидовРасчета.ОсновныеНачисленияОрганизаций.РезервыОтпусков) КАК ВидРасчета,
+	ЗНАЧЕНИЕ(Справочник.СтатьиЗатрат.РезервыОтпусков) КАК СтатьяЗатрат,
+	Врем.Сотрудник,
+	Врем.ДатаПриема,
+	Врем.Период КАК Период,
+	Врем.Сотрудник.КодГленкор КАК КодГленкор,
+	Врем.Подразделение КАК Подразделение,
+	Врем.Подразделение2 КАК Подразделение2,
+	Врем.КвоДнейНачальныйОстаток КАК КвоДнейНачальныйОстаток,
+	Врем.КвоДнейНачислено КАК КвоДнейНачислено,
+	Врем.КвоДнейИспользовано КАК КвоДнейИспользовано,
+	Врем.КвоДнейДоначислено КАК КвоДнейДоначислено,
+	Врем.КвоДнейОстаток КАК КвоДнейОстаток
+ИЗ
+	Врем2 КАК Врем</query>
+		</dataSet>
+		<totalField>
+			<dataPath>КвоДнейНачальныйОстаток</dataPath>
+			<expression>Сумма(КвоДнейНачальныйОстаток)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>КвоДнейИспользовано</dataPath>
+			<expression>Сумма(КвоДнейИспользовано)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>КвоДнейНачислено</dataPath>
+			<expression>Сумма(КвоДнейНачислено)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>КвоДнейДоначислено</dataPath>
+			<expression>Сумма(КвоДнейДоначислено)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>КвоДнейОстаток</dataPath>
+			<expression>Сумма(КвоДнейОстаток)</expression>
+		</totalField>
+		<parameter>
+			<name>Период</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Период</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Дата</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Дата</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Серна</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Серна</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core" xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ПодразделенияОрганизаций</Type>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>НачалоПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Начало периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>КонецПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Конец периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ВидОтпуска</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Вид отпуска</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core" xmlns:d5p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d5p1:CatalogRef.ВидыОтпусков</Type>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">ПоСотрудникам</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>По сотрудникам</d4p1:content>
+				</d4p1:item>
+			</presentation>
+		</settingsVariant>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">ПоПодразделениямСотрудникам</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>По подразделениям-сотрудникам</d4p1:content>
+				</d4p1:item>
+			</presentation>
+		</settingsVariant>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">ПоПодразделениям</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>По подразделениям</d4p1:content>
+				</d4p1:item>
+			</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник.Name</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Подразделение</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДатаПриема</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КодГленкор</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейНачальныйОстаток</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейНачислено</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейИспользовано</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейДоначислено</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейОстаток</field>
+		</item>
+	</selection>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Сотрудник</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>ПараметрыДанных.Дата</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+	</conditionalAppearance>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionGroupFieldsPlacement">Separately</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionAttributesPlacement">Separately</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Подразделение</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Сотрудник.Name</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ДатаПриема</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КодГленкор</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейНачальныйОстаток</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейНачислено</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейИспользовано</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейДоначислено</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейОстаток</field>
+		</item>
+	</selection>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Подразделение</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Сотрудник</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>ПараметрыДанных.Дата</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+	</conditionalAppearance>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionGroupFieldsPlacement">Separately</dcscor:value>
+		</dcscor:item>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionAttributesPlacement">Separately</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>Подразделение</field>
+				<groupType>Hierarchy</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<item xsi:type="StructureItemGroup">
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+		</item>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Подразделение</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейНачальныйОстаток</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейНачислено</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейИспользовано</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейДоначислено</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КвоДнейОстаток</field>
+		</item>
+	</selection>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Подразделение</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Сотрудник</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>ПараметрыДанных.Дата</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+	</conditionalAppearance>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionGroupFieldsPlacement">Separately</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>Подразделение</field>
+				<groupType>Hierarchy</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>

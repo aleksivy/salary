@@ -1,0 +1,9 @@
+﻿248f64be-3ea6-48d7-9814-cd47c870eb25-->und\248f64be-3ea6-48d7-9814-cd47c870eb25
+248f64be-3ea6-48d7-9814-cd47c870eb25.0-->und\248f64be-3ea6-48d7-9814-cd47c870eb25.0
+c311b3b4-32c9-4f61-b140-ff9fdcf49ff2-->und\c311b3b4-32c9-4f61-b140-ff9fdcf49ff2
+copyinfo-->und\copyinfo
+e94dcd34-1105-4490-84db-f3547f86c663-->und\e94dcd34-1105-4490-84db-f3547f86c663
+e94dcd34-1105-4490-84db-f3547f86c663.0-->Form\ФормаОтчета
+root-->und\root
+version-->und\version
+versions-->und\versions

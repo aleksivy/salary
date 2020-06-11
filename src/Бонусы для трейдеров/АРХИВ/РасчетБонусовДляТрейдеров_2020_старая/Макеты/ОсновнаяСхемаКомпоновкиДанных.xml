@@ -1,0 +1,1850 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Количество</dataPath>
+				<field>Количество</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Total Quantity, ton</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Department</d5p1:content>
+					</d5p1:item>
+				</title>
+				<presentationExpression>Подразделение.НаименованиеАнгл</presentationExpression>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Номенклатура</dataPath>
+				<field>Номенклатура</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Commodity</d5p1:content>
+					</d5p1:item>
+				</title>
+				<presentationExpression>Номенклатура.НаименованиеАнгл</presentationExpression>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Размещение</parameter>
+						<value xsi:type="DataCompositionTextPlacementType">Cut</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>План</dataPath>
+				<field>План</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Quantity by plan, ton</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=0</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Работник</dataPath>
+				<field>Работник</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Employee</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоГГБВ</dataPath>
+				<field>КоличествоГГБВ</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>GABV Quantity, ton</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>БонусАдмин</dataPath>
+				<field>БонусАдмин</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Administration bonus, USD</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>КоличествоГАУ</dataPath>
+				<field>КоличествоГАУ</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>GAU Quantity, ton</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=3</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>БонусПоПлану</dataPath>
+				<field>БонусПоПлану</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Bonus by plan, USD</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Бонус</dataPath>
+				<field>Бонус</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Trade bonus, USD</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Должность</dataPath>
+				<field>Должность</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Position</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	&amp;Винница КАК Подразделение,
+	1041.67 * (1 + РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(&amp;ДатаОтчета, ГОД), &amp;ДатаОтчета, МЕСЯЦ)) КАК БонусПоПлану
+ПОМЕСТИТЬ АдминБонусы
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Чернигов,
+	558.32 * (1 + РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(&amp;ДатаОтчета, ГОД), &amp;ДатаОтчета, МЕСЯЦ))
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Одеса,
+	1533.35 * (1 + РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(&amp;ДатаОтчета, ГОД), &amp;ДатаОтчета, МЕСЯЦ))
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Харьков,
+	1141.66 * (1 + РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(&amp;ДатаОтчета, ГОД), &amp;ДатаОтчета, МЕСЯЦ))
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	&amp;Гнип КАК Работник,
+	&amp;Киев КАК Подразделение,
+	390000 КАК План,
+	0 КАК БонусПоПлану,
+	&amp;FODirector КАК Должность,
+	&amp;Киев КАК Фильтр
+ПОМЕСТИТЬ Планы
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Поковба,
+	&amp;Винница,
+	800000,
+	9387.74,
+	&amp;FODirector,
+	&amp;Винница
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ВакансияВинница1,
+	&amp;Винница,
+	50000,
+	0,
+	&amp;FOManager,
+	&amp;ВакансияВинница1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Галунга,
+	&amp;Винница,
+	80000,
+	5452.45,
+	&amp;FOManager,
+	&amp;Галунга
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Ковбасюк,
+	&amp;Винница,
+	100000,
+	5855.43,
+	&amp;FOManager,
+	&amp;Ковбасюк
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Лебедь,
+	&amp;Винница,
+	170000,
+	6546.01,
+	&amp;FOManager,
+	&amp;Лебедь
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Пустовит,
+	&amp;Винница,
+	50000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Пустовит
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Тихонюк,
+	&amp;Винница,
+	250000,
+	8685.77,
+	&amp;FOManager,
+	&amp;Тихонюк
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Тлумацький,
+	&amp;Винница,
+	50000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Тлумацький
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Устинов,
+	&amp;Винница,
+	50000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Устинов
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Емец,
+	&amp;Николаев,
+	300000,
+	8147.33,
+	&amp;FODirector,
+	&amp;Николаев
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Емец,
+	&amp;Одеса,
+	0,
+	0,
+	&amp;FOManager,
+	&amp;Емец
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Руденко,
+	&amp;Одеса,
+	0,
+	0,
+	&amp;FOManager,
+	&amp;Руденко
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ВакансияНиколаев1,
+	&amp;Николаев,
+	100000,
+	0,
+	&amp;FOManager,
+	&amp;ВакансияНиколаев1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ВакансияНиколаев2,
+	&amp;Николаев,
+	60000,
+	0,
+	&amp;FOManager,
+	&amp;ВакансияНиколаев2
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Козяренко,
+	&amp;Николаев,
+	70000,
+	5452.45,
+	&amp;FOManager,
+	&amp;Козяренко
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Козяренко,
+	&amp;Харьков,
+	0,
+	0,
+	&amp;FOManager,
+	&amp;Козяренко
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Сотник,
+	&amp;Николаев,
+	70000,
+	6922.79,
+	&amp;FOManager,
+	&amp;Сотник
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Поковба,
+	&amp;Одеса,
+	1000000,
+	11734.67,
+	&amp;FODirector,
+	&amp;Одеса
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ВакансияОдеса1,
+	&amp;Одеса,
+	110000,
+	0,
+	&amp;FOManager,
+	&amp;ВакансияОдеса1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Заборовський,
+	&amp;Одеса,
+	550000,
+	15378.93,
+	&amp;FOManager,
+	&amp;Заборовський
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Кисельов,
+	&amp;Одеса,
+	120000,
+	5452.45,
+	&amp;FOManager,
+	&amp;Кисельов
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Шишкевич,
+	&amp;Одеса,
+	120000,
+	6957.92,
+	&amp;FOManager,
+	&amp;Шишкевич
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Юраш,
+	&amp;Одеса,
+	100000,
+	5819.05,
+	&amp;FOManager,
+	&amp;Юраш
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Борисов,
+	&amp;Харьков,
+	300000,
+	16625.87,
+	&amp;FODirector,
+	&amp;Харьков
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Дроздов,
+	&amp;Харьков,
+	50000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Дроздов
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Корнеев,
+	&amp;Харьков,
+	60000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Корнеев
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Крамаренко,
+	&amp;Харьков,
+	60000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Крамаренко
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Лациба,
+	&amp;Харьков,
+	45000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Лациба
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Матчак,
+	&amp;Харьков,
+	40000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Матчак
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Щербаков,
+	&amp;Харьков,
+	45000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Щербаков
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Вергун,
+	&amp;Чернигов,
+	600000,
+	16625.87,
+	&amp;FODirector,
+	&amp;Чернигов
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ВакансияЧернигов1,
+	&amp;Чернигов,
+	60000,
+	0,
+	&amp;FOManager,
+	&amp;ВакансияЧернигов1
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Лабунец,
+	&amp;Чернигов,
+	130000,
+	9559.87,
+	&amp;FOManager,
+	&amp;Лабунец
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Святишенко,
+	&amp;Чернигов,
+	150000,
+	7043.96,
+	&amp;FOManager,
+	&amp;Святишенко
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Сивак,
+	&amp;Чернигов,
+	100000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Сивак
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;Чебиряко,
+	&amp;Чернигов,
+	100000,
+	5985.31,
+	&amp;FOManager,
+	&amp;Чебиряко
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ВакансияЧернигов2,
+	&amp;Чернигов,
+	60000,
+	0,
+	&amp;FOManager,
+	&amp;ВакансияЧернигов2
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВЫРАЗИТЬ(ТЗ.Работник КАК Справочник.ФизическиеЛица) КАК Работник,
+	ВЫРАЗИТЬ(ТЗ.Должность КАК Справочник.ДолжностиОрганизаций) КАК Должность,
+	ВЫРАЗИТЬ(ТЗ.Подразделение КАК Справочник.Подразделения) КАК Подразделение,
+	ТЗ.План,
+	ТЗ.БонусПоПлану
+ПОМЕСТИТЬ ПланыПоФилиалам
+ИЗ
+	Планы КАК ТЗ
+ГДЕ
+	ТИПЗНАЧЕНИЯ(ТЗ.Фильтр) = ТИП(Справочник.Подразделения)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВЫРАЗИТЬ(ТЗ.Работник КАК Справочник.ФизическиеЛица) КАК Работник,
+	ВЫРАЗИТЬ(ТЗ.Должность КАК Справочник.ДолжностиОрганизаций) КАК Должность,
+	ВЫРАЗИТЬ(ТЗ.Подразделение КАК Справочник.Подразделения) КАК Подразделение,
+	ТЗ.План,
+	ТЗ.БонусПоПлану
+ПОМЕСТИТЬ ПланыПоРаботникам
+ИЗ
+	Планы КАК ТЗ
+ГДЕ
+	НЕ ТИПЗНАЧЕНИЯ(ТЗ.Фильтр) = ТИП(Справочник.Подразделения)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВЫБОР
+		КОГДА ДокТЧ.Ссылка.ДоговорКонтрагента.Подразделение = &amp;Администрация
+			ТОГДА &amp;Киев
+		ИНАЧЕ ДокТЧ.Ссылка.ДоговорКонтрагента.Подразделение
+	КОНЕЦ КАК Подразделение,
+	ВЫБОР
+		КОГДА ДокТЧ.Ссылка.ДоговорКонтрагента.Подразделение = &amp;Администрация
+				ИЛИ ДокТЧ.Ссылка.ДоговорКонтрагента.Подразделение = &amp;Киев
+			ТОГДА &amp;Гнип
+		ИНАЧЕ ДокТЧ.Ссылка.ДоговорКонтрагента.Ответственный.ФизЛицо
+	КОНЕЦ КАК Работник,
+	ДокТЧ.Номенклатура КАК Номенклатура,
+	ДокТЧ.Ссылка КАК Документ,
+	СУММА(ДокТЧ.Количество) КАК КоличествоГАУ,
+	0 КАК КоличествоГГБВ
+ПОМЕСТИТЬ ДокТЧ
+ИЗ
+	Документ.ПоступлениеТоваровУслуг.Товары КАК ДокТЧ
+ГДЕ
+	ДокТЧ.Ссылка.Проведен
+	И ДокТЧ.Ссылка.Организация = &amp;ГГУ
+	И ДокТЧ.Ссылка.Дата МЕЖДУ НАЧАЛОПЕРИОДА(&amp;ДатаОтчета, ГОД) И КОНЕЦПЕРИОДА(&amp;ДатаОтчета, МЕСЯЦ)
+	И НЕ ДокТЧ.Номенклатура = &amp;НоменклатураЗПУ
+
+СГРУППИРОВАТЬ ПО
+	ВЫБОР
+		КОГДА ДокТЧ.Ссылка.ДоговорКонтрагента.Подразделение = &amp;Администрация
+			ТОГДА &amp;Киев
+		ИНАЧЕ ДокТЧ.Ссылка.ДоговорКонтрагента.Подразделение
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ДокТЧ.Ссылка.ДоговорКонтрагента.Подразделение = &amp;Администрация
+				ИЛИ ДокТЧ.Ссылка.ДоговорКонтрагента.Подразделение = &amp;Киев
+			ТОГДА &amp;Гнип
+		ИНАЧЕ ДокТЧ.Ссылка.ДоговорКонтрагента.Ответственный.ФизЛицо
+	КОНЕЦ,
+	ДокТЧ.Ссылка,
+	ДокТЧ.Номенклатура
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВЫБОР
+		КОГДА ДокТЧ.Ссылка.ДоговорОтправитель.Подразделение = &amp;Администрация
+			ТОГДА &amp;Киев
+		ИНАЧЕ ДокТЧ.Ссылка.ДоговорОтправитель.Подразделение
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ДокТЧ.Ссылка.ДоговорОтправитель.Подразделение = &amp;Администрация
+				ИЛИ ДокТЧ.Ссылка.ДоговорОтправитель.Подразделение = &amp;Киев
+			ТОГДА &amp;Гнип
+		ИНАЧЕ ДокТЧ.Ссылка.ДоговорОтправитель.Ответственный.ФизЛицо
+	КОНЕЦ,
+	ДокТЧ.Номенклатура,
+	ДокТЧ.Ссылка,
+	0,
+	СУММА(ВЫБОР
+			КОГДА ДокТЧ.Ссылка.СтатусДокумента = ЗНАЧЕНИЕ(Справочник.СтатусыДокументов.Возврат)
+				ТОГДА -ДокТЧ.КоличествоРазгрузка
+			ИНАЧЕ ДокТЧ.КоличествоРазгрузка
+		КОНЕЦ)
+ИЗ
+	Документ.ЦБТ_ДвижениеЗапасов.Товары КАК ДокТЧ
+ГДЕ
+	ДокТЧ.Ссылка.Проведен
+	И НЕ ДокТЧ.Ссылка.ДоговорОтправитель = ЗНАЧЕНИЕ(Справочник.ДоговорыКонтрагентов.ПустаяСсылка)
+	И НЕ ДокТЧ.Ссылка.Организация = &amp;ГГУ
+	И ДокТЧ.Ссылка.Отправитель ССЫЛКА Справочник.Контрагенты
+	И ДокТЧ.Ссылка.Получатель ССЫЛКА Справочник.Склады
+	И ДокТЧ.Ссылка.ДатаРазгрузки МЕЖДУ НАЧАЛОПЕРИОДА(&amp;ДатаОтчета, ГОД) И КОНЕЦПЕРИОДА(&amp;ДатаОтчета, МЕСЯЦ)
+	И НЕ ДокТЧ.Номенклатура = &amp;НоменклатураЗПУ
+
+СГРУППИРОВАТЬ ПО
+	ВЫБОР
+		КОГДА ДокТЧ.Ссылка.ДоговорОтправитель.Подразделение = &amp;Администрация
+			ТОГДА &amp;Киев
+		ИНАЧЕ ДокТЧ.Ссылка.ДоговорОтправитель.Подразделение
+	КОНЕЦ,
+	ДокТЧ.Номенклатура,
+	ДокТЧ.Ссылка,
+	ВЫБОР
+		КОГДА ДокТЧ.Ссылка.ДоговорОтправитель.Подразделение = &amp;Администрация
+				ИЛИ ДокТЧ.Ссылка.ДоговорОтправитель.Подразделение = &amp;Киев
+			ТОГДА &amp;Гнип
+		ИНАЧЕ ДокТЧ.Ссылка.ДоговорОтправитель.Ответственный.ФизЛицо
+	КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПланыПоФилиалам.Работник,
+	ПланыПоФилиалам.Должность,
+	ПланыПоФилиалам.Подразделение,
+	ПланыПоФилиалам.План,
+	ПланыПоФилиалам.БонусПоПлану,
+	ЕСТЬNULL(ДокТЧ.Номенклатура, ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)) КАК Номенклатура,
+	СУММА(ЕСТЬNULL(ДокТЧ.КоличествоГАУ, 0)) КАК КоличествоГАУ,
+	СУММА(ЕСТЬNULL(ДокТЧ.КоличествоГГБВ, 0)) КАК КоличествоГГБВ
+ПОМЕСТИТЬ ПоФилиалам
+ИЗ
+	ПланыПоФилиалам КАК ПланыПоФилиалам
+		ЛЕВОЕ СОЕДИНЕНИЕ ДокТЧ КАК ДокТЧ
+		ПО ПланыПоФилиалам.Подразделение = ДокТЧ.Подразделение
+
+СГРУППИРОВАТЬ ПО
+	ПланыПоФилиалам.Работник,
+	ПланыПоФилиалам.Должность,
+	ПланыПоФилиалам.Подразделение,
+	ПланыПоФилиалам.План,
+	ПланыПоФилиалам.БонусПоПлану,
+	ЕСТЬNULL(ДокТЧ.Номенклатура, ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка))
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПланыПоФилиалам.Работник,
+	ПланыПоФилиалам.Подразделение,
+	ПланыПоФилиалам.План,
+	ПланыПоФилиалам.БонусПоПлану,
+	СУММА(ПланыПоФилиалам.КоличествоГАУ) КАК КоличествоГАУ,
+	СУММА(ПланыПоФилиалам.КоличествоГГБВ) КАК КоличествоГГБВ
+ПОМЕСТИТЬ ПоФилиаламСвернуто
+ИЗ
+	ПоФилиалам КАК ПланыПоФилиалам
+
+СГРУППИРОВАТЬ ПО
+	ПланыПоФилиалам.Работник,
+	ПланыПоФилиалам.Подразделение,
+	ПланыПоФилиалам.План,
+	ПланыПоФилиалам.БонусПоПлану
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПланыПоРаботникам.Работник КАК Работник,
+	ПланыПоРаботникам.Должность,
+	ПланыПоРаботникам.Подразделение,
+	ПланыПоРаботникам.План,
+	ПланыПоРаботникам.БонусПоПлану,
+	ЕСТЬNULL(ДокТЧ.Номенклатура, ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)) КАК Номенклатура,
+	СУММА(ЕСТЬNULL(ДокТЧ.КоличествоГАУ, 0)) КАК КоличествоГАУ,
+	СУММА(ЕСТЬNULL(ДокТЧ.КоличествоГГБВ, 0)) КАК КоличествоГГБВ
+ПОМЕСТИТЬ ПоРаботникам
+ИЗ
+	ПланыПоРаботникам КАК ПланыПоРаботникам
+		ЛЕВОЕ СОЕДИНЕНИЕ ДокТЧ КАК ДокТЧ
+		ПО ПланыПоРаботникам.Подразделение = ДокТЧ.Подразделение
+			И ПланыПоРаботникам.Работник = ДокТЧ.Работник
+
+СГРУППИРОВАТЬ ПО
+	ПланыПоРаботникам.Работник,
+	ПланыПоРаботникам.Должность,
+	ПланыПоРаботникам.Подразделение,
+	ПланыПоРаботникам.План,
+	ПланыПоРаботникам.БонусПоПлану,
+	ЕСТЬNULL(ДокТЧ.Номенклатура, ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка))
+
+ИНДЕКСИРОВАТЬ ПО
+	Работник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПланыПоРаботникам.Работник,
+	ПланыПоРаботникам.Подразделение,
+	ПланыПоРаботникам.План,
+	ПланыПоРаботникам.БонусПоПлану,
+	СУММА(ПланыПоРаботникам.КоличествоГАУ) КАК КоличествоГАУ,
+	СУММА(ПланыПоРаботникам.КоличествоГГБВ) КАК КоличествоГГБВ
+ПОМЕСТИТЬ ПоРаботникамСвернуто
+ИЗ
+	ПоРаботникам КАК ПланыПоРаботникам
+
+СГРУППИРОВАТЬ ПО
+	ПланыПоРаботникам.Работник,
+	ПланыПоРаботникам.Подразделение,
+	ПланыПоРаботникам.План,
+	ПланыПоРаботникам.БонусПоПлану
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Планы.Работник,
+	Планы.Должность,
+	Планы.Подразделение,
+	Планы.План,
+	Планы.БонусПоПлану,
+	Планы.Номенклатура,
+	ВЫБОР
+		КОГДА Планы.Подразделение = &amp;Киев
+			ТОГДА СУММА(Планы.КоличествоГАУ) + СУММА(Планы.КоличествоГГБВ)
+		ИНАЧЕ СУММА(Планы.КоличествоГАУ) + СУММА(Планы.КоличествоГГБВ)
+	КОНЕЦ КАК Количество,
+	ВЫБОР
+		КОГДА Планы.Подразделение = &amp;Киев
+			ТОГДА СУММА(Планы.КоличествоГАУ)
+		ИНАЧЕ СУММА(Планы.КоличествоГАУ)
+	КОНЕЦ КАК КоличествоГАУ,
+	ВЫБОР
+		КОГДА Планы.Подразделение = &amp;Киев
+			ТОГДА СУММА(Планы.КоличествоГГБВ)
+		ИНАЧЕ СУММА(Планы.КоличествоГГБВ)
+	КОНЕЦ КАК КоличествоГГБВ,
+	СУММА(ВЫБОР
+			КОГДА Свернуто.КоличествоГАУ + Свернуто.КоличествоГГБВ = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА Свернуто.КоличествоГАУ + Свернуто.КоличествоГГБВ &gt;= Планы.План
+						ТОГДА Планы.БонусПоПлану * (Планы.КоличествоГАУ + Планы.КоличествоГГБВ) / (Свернуто.КоличествоГАУ + Свернуто.КоличествоГГБВ)
+					ИНАЧЕ Планы.БонусПоПлану * (Планы.КоличествоГАУ + Планы.КоличествоГГБВ) / Планы.План
+				КОНЕЦ
+		КОНЕЦ) КАК Бонус,
+	СУММА(ВЫБОР
+			КОГДА Свернуто.КоличествоГАУ + Свернуто.КоличествоГГБВ = 0
+				ТОГДА 0
+			ИНАЧЕ ЕСТЬNULL(АдминБонусы.БонусПоПлану, 0) * (Планы.КоличествоГАУ + Планы.КоличествоГГБВ) / (Свернуто.КоличествоГАУ + Свернуто.КоличествоГГБВ)
+		КОНЕЦ) КАК БонусАдмин
+ИЗ
+	ПоФилиалам КАК Планы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ПоФилиаламСвернуто КАК Свернуто
+		ПО Планы.Работник = Свернуто.Работник
+			И Планы.Подразделение = Свернуто.Подразделение
+			И Планы.План = Свернуто.План
+			И Планы.БонусПоПлану = Свернуто.БонусПоПлану
+		ЛЕВОЕ СОЕДИНЕНИЕ АдминБонусы КАК АдминБонусы
+		ПО Планы.Подразделение = АдминБонусы.Подразделение
+
+СГРУППИРОВАТЬ ПО
+	Планы.Работник,
+	Планы.Должность,
+	Планы.Подразделение,
+	Планы.План,
+	Планы.БонусПоПлану,
+	Планы.Номенклатура,
+	АдминБонусы.БонусПоПлану
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Планы.Работник,
+	Планы.Должность,
+	Планы.Подразделение,
+	Планы.План,
+	Планы.БонусПоПлану,
+	Планы.Номенклатура,
+	ВЫБОР
+		КОГДА Планы.Подразделение = &amp;Киев
+			ТОГДА СУММА(Планы.КоличествоГАУ) + СУММА(Планы.КоличествоГГБВ)
+		ИНАЧЕ СУММА(Планы.КоличествоГАУ) + СУММА(Планы.КоличествоГГБВ)
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА Планы.Подразделение = &amp;Киев
+			ТОГДА СУММА(Планы.КоличествоГАУ)
+		ИНАЧЕ СУММА(Планы.КоличествоГАУ)
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА Планы.Подразделение = &amp;Киев
+			ТОГДА СУММА(Планы.КоличествоГГБВ)
+		ИНАЧЕ СУММА(Планы.КоличествоГГБВ)
+	КОНЕЦ,
+	СУММА(ВЫБОР
+			КОГДА Свернуто.КоличествоГАУ + Свернуто.КоличествоГГБВ = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА Свернуто.КоличествоГАУ + Свернуто.КоличествоГГБВ &gt;= Планы.План
+						ТОГДА Планы.БонусПоПлану * (Планы.КоличествоГАУ + Планы.КоличествоГГБВ) / (Свернуто.КоличествоГАУ + Свернуто.КоличествоГГБВ)
+					ИНАЧЕ Планы.БонусПоПлану * (Планы.КоличествоГАУ + Планы.КоличествоГГБВ) / Планы.План
+				КОНЕЦ
+		КОНЕЦ),
+	0
+ИЗ
+	ПоРаботникам КАК Планы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ПоРаботникамСвернуто КАК Свернуто
+		ПО Планы.Работник = Свернуто.Работник
+			И Планы.Подразделение = Свернуто.Подразделение
+			И Планы.План = Свернуто.План
+			И Планы.БонусПоПлану = Свернуто.БонусПоПлану
+
+СГРУППИРОВАТЬ ПО
+	Планы.Работник,
+	Планы.Должность,
+	Планы.Подразделение,
+	Планы.План,
+	Планы.БонусПоПлану,
+	Планы.Номенклатура</query>
+		</dataSet>
+		<calculatedField>
+			<dataPath>БонусОбщий</dataPath>
+			<expression>Бонус + БонусАдмин</expression>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Total bonus, USD</d4p1:content>
+				</d4p1:item>
+			</title>
+			<appearance>
+				<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+					<parameter>Формат</parameter>
+					<value xmlns:d6p1="http://v8.1c.ru/8.1/data/core" xsi:type="d6p1:LocalStringType">
+						<d6p1:item>
+							<d6p1:lang>ru</d6p1:lang>
+							<d6p1:content>ЧДЦ=2</d6p1:content>
+						</d6p1:item>
+					</value>
+				</item>
+			</appearance>
+		</calculatedField>
+		<totalField>
+			<dataPath>Количество</dataPath>
+			<expression>Сумма(Количество)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>КоличествоГАУ</dataPath>
+			<expression>Сумма(КоличествоГАУ)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>КоличествоГГБВ</dataPath>
+			<expression>Сумма(КоличествоГГБВ)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>Бонус</dataPath>
+			<expression>Сумма(Бонус)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>БонусАдмин</dataPath>
+			<expression>Сумма(БонусАдмин)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>БонусОбщий</dataPath>
+			<expression>Сумма(БонусОбщий)</expression>
+		</totalField>
+		<parameter>
+			<name>ДатаОтчета</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Дата отчета</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ГГУ</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>ГГУ</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">a86305d7-b8a1-4312-901f-2ade3efdb351</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>НоменклатураЗПУ</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Номенклатура ЗПУ</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">dd0e8719-5e55-43a0-944a-8321d4c46843</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>FODirector</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>FODirector</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">28f291da-0cd8-4243-828b-e5f78069363d</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>FOManager</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>FOManager</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">28f291da-0cd8-4243-828b-e5f78069363d</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Администрация</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Администрация</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">784bb020-f9e0-4a39-bf27-71d2b228a981</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Винница</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Винница</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">784bb020-f9e0-4a39-bf27-71d2b228a981</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Киев</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Киев</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">784bb020-f9e0-4a39-bf27-71d2b228a981</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Николаев</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Николаев</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">784bb020-f9e0-4a39-bf27-71d2b228a981</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Одеса</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Одеса</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">784bb020-f9e0-4a39-bf27-71d2b228a981</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Харьков</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Харьков</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">784bb020-f9e0-4a39-bf27-71d2b228a981</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Чернигов</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Чернигов</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">784bb020-f9e0-4a39-bf27-71d2b228a981</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Борисов</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Борисов</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Вергун</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Вергун</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Галунга</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Галунга</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Гнип</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Гнип</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Дроздов</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Дроздов</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Емец</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Емец</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Заборовський</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Заборовський</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Кисельов</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Кисельов</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Ковбасюк</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Ковбасюк</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Козяренко</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Козяренко</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Корнеев</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Корнеев</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Крамаренко</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Крамаренко</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Лабунец</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Лабунец</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Лациба</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Лациба</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Лебедь</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Лебедь</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Матчак</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Матчак</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Поковба</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Поковба</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Пустовит</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Пустовит</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Руденко</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Руденко</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Святишенко</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Святишенко</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Сивак</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Сивак</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Сотник</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Сотник</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Тихонюк</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Тихонюк</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Тлумацький</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Тлумацький</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Устинов</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Устинов</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Чебиряко</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Чебиряко</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Шишкевич</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Шишкевич</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Щербаков</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Щербаков</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Юраш</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Юраш</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ВакансияВинница1</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Вакансия винница1</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ВакансияНиколаев1</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Вакансия николаев1</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ВакансияНиколаев2</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Вакансия николаев2</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ВакансияОдеса1</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Вакансия одеса1</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ВакансияЧернигов1</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Вакансия чернигов1</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ВакансияЧернигов2</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Вакансия чернигов2</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">37da5337-6ed4-44c5-9da2-d62e588c2698</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">ПоСотрудникам</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>По сотрудникам</d4p1:content>
+				</d4p1:item>
+			</presentation>
+		</settingsVariant>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">ПоПодразделениям</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>По подразделениям</d4p1:content>
+				</d4p1:item>
+			</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Подразделение</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Должность</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Работник</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>План</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>БонусПоПлану</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Количество</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Бонус</field>
+		</item>
+	</selection>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Подразделение.НаименованиеАнгл</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Должность</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Работник</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Номенклатура.НаименованиеАнгл</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<outputParameters/>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>Подразделение</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+			<item xsi:type="GroupItemField">
+				<field>Должность</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+			<item xsi:type="GroupItemField">
+				<field>Работник</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+			<item xsi:type="GroupItemField">
+				<field>План</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+			<item xsi:type="GroupItemField">
+				<field>БонусПоПлану</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Подразделение</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Номенклатура</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КоличествоГАУ</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>КоличествоГГБВ</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Количество</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>Бонус</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>БонусАдмин</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>БонусОбщий</field>
+		</item>
+	</selection>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Подразделение.НаименованиеАнгл</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Номенклатура.НаименованиеАнгл</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>Контрагент</field>
+				</item>
+				<item>
+					<field>Ответственный</field>
+				</item>
+				<item>
+					<field>ФизЛицо</field>
+				</item>
+			</selection>
+			<filter/>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Размещение</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Cut</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+	</conditionalAppearance>
+	<outputParameters>
+		<dcscor:item xsi:type="SettingsParameterValue">
+			<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+			<dcscor:value xsi:type="DataCompositionGroupFieldsPlacement">Separately</dcscor:value>
+		</dcscor:item>
+	</outputParameters>
+	<item xsi:type="StructureItemGroup">
+		<groupItems>
+			<item xsi:type="GroupItemField">
+				<field>Подразделение</field>
+				<groupType>Items</groupType>
+				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+			</item>
+		</groupItems>
+		<order>
+			<item xsi:type="OrderItemAuto"/>
+		</order>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+		<item xsi:type="StructureItemGroup">
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>Номенклатура</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</item>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>
