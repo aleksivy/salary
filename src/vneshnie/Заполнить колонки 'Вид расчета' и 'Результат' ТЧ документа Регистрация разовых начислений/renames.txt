@@ -1,0 +1,7 @@
+﻿0113f749-d502-4fe7-9215-058e6877c7f5.0\info-->und\0113f749-d502-4fe7-9215-058e6877c7f5.0\info
+0113f749-d502-4fe7-9215-058e6877c7f5.0\text-->ObjectModule.bsl
+44b7bda8-eea0-4548-8caf-3f016c9f9e74-->und\44b7bda8-eea0-4548-8caf-3f016c9f9e74
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

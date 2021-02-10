@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema">
+		<dataSource>
+			<name>ИсточникДанных1</name>
+			<dataSourceType>Local</dataSourceType>
+		</dataSource>
+		<dataSet xsi:type="DataSetQuery">
+			<name>НаборДанных1</name>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СтатьяЗатрат</dataPath>
+				<field>СтатьяЗатрат</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Статья затрат</d5p1:content>
+					</d5p1:item>
+				</title>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+					<ignoreNullValues xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</ignoreNullValues>
+				</role>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВалютаКт</dataPath>
+				<field>ВалютаКт</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПодразделениеName</dataPath>
+				<field>ПодразделениеName</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Подразделение name</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>IntercompanyДт</dataPath>
+				<field>IntercompanyДт</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СуммаГрн</dataPath>
+				<field>СуммаГрн</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Сумма грн</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СубконтоДт1</dataPath>
+				<field>СубконтоДт1</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СубконтоДт2</dataPath>
+				<field>СубконтоДт2</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НалоговоеНазначениеКт</dataPath>
+				<field>НалоговоеНазначениеКт</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СубконтоДт3</dataPath>
+				<field>СубконтоДт3</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Регистратор</dataPath>
+				<field>Регистратор</field>
+				<role>
+					<periodNumber xmlns="http://v8.1c.ru/8.1/data-composition-system/common">1</periodNumber>
+					<periodType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Main</periodType>
+				</role>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СубконтоКт1</dataPath>
+				<field>СубконтоКт1</field>
+				<appearance/>
+				<inputParameters/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СчетДт</dataPath>
+				<field>СчетДт</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СубконтоКт2</dataPath>
+				<field>СубконтоКт2</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СубконтоКт3</dataPath>
+				<field>СубконтоКт3</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>IntercompanyКт</dataPath>
+				<field>IntercompanyКт</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>БИТ_МСФО_ПланСчетов</dataPath>
+				<field>БИТ_МСФО_ПланСчетов</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПодразделениеДт</dataPath>
+				<field>ПодразделениеДт</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СуммаДол</dataPath>
+				<field>СуммаДол</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Сумма дол</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance>
+					<item xmlns="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="dcsset:SettingsParameterValue">
+						<parameter>Формат</parameter>
+						<value xmlns:d7p1="http://v8.1c.ru/8.1/data/core" xsi:type="d7p1:LocalStringType">
+							<d7p1:item>
+								<d7p1:lang>ru</d7p1:lang>
+								<d7p1:content>ЧДЦ=2</d7p1:content>
+							</d7p1:item>
+						</value>
+					</item>
+				</appearance>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>СчетКт</dataPath>
+				<field>СчетКт</field>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+				</role>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Adjustments</dataPath>
+				<field>Adjustments</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ВалютаДт</dataPath>
+				<field>ВалютаДт</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Подразделение</dataPath>
+				<field>Подразделение</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Подразделение</d5p1:content>
+					</d5p1:item>
+				</title>
+				<role>
+					<dimension xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</dimension>
+					<ignoreNullValues xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</ignoreNullValues>
+				</role>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>Организация</dataPath>
+				<field>Организация</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ПодразделениеКт</dataPath>
+				<field>ПодразделениеКт</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипЗатраты</dataPath>
+				<field>ТипЗатраты</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Тип затраты</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НалоговоеНазначениеДт</dataPath>
+				<field>НалоговоеНазначениеДт</field>
+				<appearance/>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>ТипЗатраты2</dataPath>
+				<field>ТипЗатраты2</field>
+				<title xmlns:d5p1="http://v8.1c.ru/8.1/data/core" xsi:type="d5p1:LocalStringType">
+					<d5p1:item>
+						<d5p1:lang>ru</d5p1:lang>
+						<d5p1:content>Тип затраты2</d5p1:content>
+					</d5p1:item>
+				</title>
+				<appearance/>
+			</field>
+			<dataSource>ИсточникДанных1</dataSource>
+			<query>ВЫБРАТЬ
+	&amp;оплатапраці1заробітнаплата КАК СтатьяЗатрат,
+	"1.Salaries and wages" КАК ТипЗатраты
+ПОМЕСТИТЬ _01_НужныеСтатьи
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;оплатапраці3премиявзарплату,
+	"1.Salaries and wages"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;МатПомощь,
+	"1.Salaries and wages"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;оплатапраці6отпускные,
+	"1.Salaries and wages"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;оплатапрацівнештатники,
+	"1.Salaries and wages"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;оплатапраці5админбонус,
+	"2.Bonus"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;оплатапраці4торгбонус,
+	"2.Bonus"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;пенсионныйфонд,
+	"3.SOCIAL SECURITY AND PENSION PLANS"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;медстраховка,
+	"3.SOCIAL SECURITY AND PENSION PLANS"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;арендажилья,
+	"4.OTHER PERSONNEL EXPENSES"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;компенсационныезатраты,
+	"4.OTHER PERSONNEL EXPENSES"
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;обучениеперсонала,
+	"4.OTHER PERSONNEL EXPENSES"
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Рег.Регистратор,
+	Рег.СчетКт,
+	Рег.СубконтоДт1 КАК Подразделение,
+	Рег.СубконтоДт2 КАК СтатьяЗатрат,
+	Рег.СубконтоДт3 КАК Номенклатура,
+	ВЫБОР
+		КОГДА Рег.СубконтоКт1 ЕСТЬ NULL
+			ТОГДА НЕОПРЕДЕЛЕНО
+		ИНАЧЕ Рег.СубконтоКт1
+	КОНЕЦ КАК СубконтоКт1,
+	ВЫБОР
+		КОГДА Рег.СубконтоКт2 ЕСТЬ NULL
+			ТОГДА НЕОПРЕДЕЛЕНО
+		ИНАЧЕ Рег.СубконтоКт2
+	КОНЕЦ КАК СубконтоКт2,
+	ВЫБОР
+		КОГДА Рег.СубконтоКт3 ЕСТЬ NULL
+			ТОГДА НЕОПРЕДЕЛЕНО
+		ИНАЧЕ Рег.СубконтоКт3
+	КОНЕЦ КАК СубконтоКт3,
+	Рег.СуммаОборот,
+	Рег.ВалютнаяСуммаОборотДт
+ПОМЕСТИТЬ _02_ВсеЗатраты
+ИЗ
+	РегистрБухгалтерии.МСФО.ОборотыДтКт(
+			НАЧАЛОПЕРИОДА(&amp;ДатаНач, ДЕНЬ),
+			КОНЕЦПЕРИОДА(&amp;ДатаКон, ДЕНЬ),
+			Регистратор,
+			СчетДт = &amp;Счет92,
+			,
+			,
+			,
+			СубконтоДт2 В
+				(ВЫБРАТЬ
+					НужныеСтатьи.СтатьяЗатрат
+				ИЗ
+					_01_НужныеСтатьи КАК НужныеСтатьи)) КАК Рег
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДокТЧ.Ссылка,
+	ДокТЧ.СубконтоДт1 КАК Подразделение,
+	ВЫБОР
+		КОГДА ДокТЧ.СубконтоДт1.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА ДокТЧ.СубконтоДт1
+		КОГДА ДокТЧ.СубконтоДт1.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА ДокТЧ.СубконтоДт1.Родитель
+		КОГДА ДокТЧ.СубконтоДт1.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА ДокТЧ.СубконтоДт1.Родитель.Родитель
+	КОНЕЦ КАК Подразделение2,
+	ДокТЧ.СубконтоДт2 КАК СтатьяЗатрат,
+	ДокТЧ.СубконтоДт3 КАК Номенклатура,
+	ДокТЧ.СчетКт,
+	ДокТЧ.СубконтоКт1,
+	ДокТЧ.СубконтоКт2,
+	ДокТЧ.СубконтоКт3,
+	СУММА(ДокТЧ.Сумма) КАК Сумма
+ПОМЕСТИТЬ _03_Начисления
+ИЗ
+	Документ.НачислениеЗарплатыРаботникамОрганизаций.ОтражениеВУчете КАК ДокТЧ
+ГДЕ
+	ДокТЧ.Ссылка В
+			(ВЫБРАТЬ
+				ВсеЗатраты.Регистратор
+			ИЗ
+				_02_ВсеЗатраты КАК ВсеЗатраты)
+	И ДокТЧ.СчетДт = ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.АдминистративныеРасходы)
+
+СГРУППИРОВАТЬ ПО
+	ДокТЧ.СубконтоКт3,
+	ДокТЧ.СчетКт,
+	ДокТЧ.Ссылка,
+	ДокТЧ.СубконтоДт1,
+	ДокТЧ.СубконтоКт1,
+	ДокТЧ.СубконтоДт2,
+	ДокТЧ.СубконтоДт3,
+	ДокТЧ.СубконтоКт2,
+	ВЫБОР
+		КОГДА ДокТЧ.СубконтоДт1.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА ДокТЧ.СубконтоДт1
+		КОГДА ДокТЧ.СубконтоДт1.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА ДокТЧ.СубконтоДт1.Родитель
+		КОГДА ДокТЧ.СубконтоДт1.Родитель.Родитель.Родитель = ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка)
+			ТОГДА ДокТЧ.СубконтоДт1.Родитель.Родитель
+	КОНЕЦ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Начисления.Ссылка,
+	Начисления.Подразделение2,
+	Начисления.СтатьяЗатрат,
+	Начисления.Номенклатура,
+	Начисления.СчетКт,
+	Начисления.СубконтоКт1,
+	Начисления.СубконтоКт2,
+	Начисления.СубконтоКт3,
+	СУММА(Начисления.Сумма) КАК Сумма
+ПОМЕСТИТЬ _04_НачисленияСвернуто
+ИЗ
+	_03_Начисления КАК Начисления
+
+СГРУППИРОВАТЬ ПО
+	Начисления.СубконтоКт2,
+	Начисления.СчетКт,
+	Начисления.Подразделение2,
+	Начисления.Номенклатура,
+	Начисления.СубконтоКт1,
+	Начисления.СубконтоКт3,
+	Начисления.Ссылка,
+	Начисления.СтатьяЗатрат
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Начисления.Ссылка,
+	Начисления.Подразделение,
+	Начисления.Подразделение2,
+	Начисления.СтатьяЗатрат,
+	Начисления.Номенклатура,
+	Начисления.СчетКт,
+	Начисления.СубконтоКт1,
+	Начисления.СубконтоКт2,
+	Начисления.СубконтоКт3,
+	Начисления.Сумма,
+	НачисленияСвернуто.Сумма КАК СуммаСвернуто
+ПОМЕСТИТЬ _05_НачисленияВсе
+ИЗ
+	_03_Начисления КАК Начисления
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ _04_НачисленияСвернуто КАК НачисленияСвернуто
+		ПО Начисления.Ссылка = НачисленияСвернуто.Ссылка
+			И Начисления.Подразделение2 = НачисленияСвернуто.Подразделение2
+			И Начисления.СтатьяЗатрат = НачисленияСвернуто.СтатьяЗатрат
+			И Начисления.Номенклатура = НачисленияСвернуто.Номенклатура
+			И Начисления.СчетКт = НачисленияСвернуто.СчетКт
+			И Начисления.СубконтоКт1 = НачисленияСвернуто.СубконтоКт1
+			И Начисления.СубконтоКт2 = НачисленияСвернуто.СубконтоКт2
+			И Начисления.СубконтоКт3 = НачисленияСвернуто.СубконтоКт3
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВсеЗатраты.Регистратор,
+	ЕСТЬNULL(НачисленияВсе.Подразделение, ВсеЗатраты.Подразделение) КАК Подразделение,
+	ЕСТЬNULL(НачисленияВсе.Подразделение.Name, ВсеЗатраты.Подразделение.Name) КАК ПодразделениеName,
+	НужныеСтатьи.ТипЗатраты,
+	ВЫБОР
+		КОГДА НужныеСтатьи.ТипЗатраты = "4.OTHER PERSONNEL EXPENSES"
+			ТОГДА ВсеЗатраты.СтатьяЗатрат
+		ИНАЧЕ ЗНАЧЕНИЕ(Справочник.СтатьиЗатрат.ПустаяСсылка)
+	КОНЕЦ КАК ТипЗатраты2,
+	ВсеЗатраты.СтатьяЗатрат,
+	ВсеЗатраты.СчетКт,
+	ВсеЗатраты.СубконтоКт1,
+	ВсеЗатраты.СубконтоКт2,
+	ВсеЗатраты.СубконтоКт3,
+	ВЫБОР
+		КОГДА ВсеЗатраты.ВалютнаяСуммаОборотДт = ЕСТЬNULL(НачисленияВсе.СуммаСвернуто, 0)
+			ТОГДА ВсеЗатраты.СуммаОборот * ЕСТЬNULL(НачисленияВсе.Сумма, 0) / ВсеЗатраты.ВалютнаяСуммаОборотДт
+		ИНАЧЕ ВсеЗатраты.СуммаОборот
+	КОНЕЦ КАК СуммаДол,
+	ВЫБОР
+		КОГДА ВсеЗатраты.ВалютнаяСуммаОборотДт = ЕСТЬNULL(НачисленияВсе.СуммаСвернуто, 0)
+			ТОГДА ЕСТЬNULL(НачисленияВсе.Сумма, 0)
+		ИНАЧЕ ВсеЗатраты.ВалютнаяСуммаОборотДт
+	КОНЕЦ КАК СуммаГрн
+ИЗ
+	_02_ВсеЗатраты КАК ВсеЗатраты
+		ЛЕВОЕ СОЕДИНЕНИЕ _05_НачисленияВсе КАК НачисленияВсе
+		ПО ВсеЗатраты.Регистратор = НачисленияВсе.Ссылка
+			И ВсеЗатраты.Подразделение = НачисленияВсе.Подразделение2
+			И ВсеЗатраты.СтатьяЗатрат = НачисленияВсе.СтатьяЗатрат
+			И ВсеЗатраты.Номенклатура = НачисленияВсе.Номенклатура
+			И ВсеЗатраты.СчетКт.Код = НачисленияВсе.СчетКт.Код
+			И ВсеЗатраты.СубконтоКт1 = НачисленияВсе.СубконтоКт1
+			И ВсеЗатраты.СубконтоКт2 = НачисленияВсе.СубконтоКт2
+			И ВсеЗатраты.СубконтоКт3 = НачисленияВсе.СубконтоКт3
+			И (ВсеЗатраты.ВалютнаяСуммаОборотДт = ЕСТЬNULL(НачисленияВсе.СуммаСвернуто, 0))
+		ЛЕВОЕ СОЕДИНЕНИЕ _01_НужныеСтатьи КАК НужныеСтатьи
+		ПО ВсеЗатраты.СтатьяЗатрат = НужныеСтатьи.СтатьяЗатрат</query>
+		</dataSet>
+		<totalField>
+			<dataPath>СуммаГрн</dataPath>
+			<expression>Сумма(СуммаГрн)</expression>
+		</totalField>
+		<totalField>
+			<dataPath>СуммаДол</dataPath>
+			<expression>Сумма(СуммаДол)</expression>
+		</totalField>
+		<parameter>
+			<name>НачалоПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Начало периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>КонецПериода</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Конец периода</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>арендажилья</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Арендажилья</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ДатаНач</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Период с</d4p1:content>
+				</d4p1:item>
+				<d4p1:item>
+					<d4p1:lang>uk</d4p1:lang>
+					<d4p1:content>Период с</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>ДатаКон</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>          по</d4p1:content>
+				</d4p1:item>
+				<d4p1:item>
+					<d4p1:lang>uk</d4p1:lang>
+					<d4p1:content>по</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:dateTime</Type>
+				<DateQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+					<DateFractions>DateTime</DateFractions>
+				</DateQualifiers>
+			</valueType>
+			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+			<useRestriction>false</useRestriction>
+		</parameter>
+		<parameter>
+			<name>компенсационныезатраты</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Компенсационныезатраты</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>МатПомощь</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Мат помощь</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>медстраховка</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Медстраховка</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>обучениеперсонала</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Обучениеперсонала</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>оплатапраці1заробітнаплата</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Оплатапраці1заробітнаплата</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>оплатапраці3премиявзарплату</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Оплатапраці3премиявзарплату</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>оплатапраці4торгбонус</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Оплатапраці4торгбонус</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>оплатапраці5админбонус</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Оплатапраці5админбонус</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>оплатапраці6отпускные</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Оплатапраці6отпускные</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>оплатапрацівнештатники</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Оплатапрацівнештатники</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>пенсионныйфонд</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Пенсионныйфонд</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bef59bf9-468d-43c3-95dd-08e0b4135994</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<parameter>
+			<name>Счет92</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Счет92</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">b73a4b9d-7d8c-4b98-85ba-c9395a5062cb</TypeId>
+			</valueType>
+			<value xsi:nil="true"/>
+			<useRestriction>true</useRestriction>
+		</parameter>
+		<settingsVariant>
+			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">Основной</name>
+			<presentation xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xsi:type="xs:string">Основной</presentation>
+		</settingsVariant>
+	</dataCompositionSchema>
+</SchemaFile>﻿<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<selection>
+		<item xsi:type="SelectedItemField">
+			<field>Подразделение</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>ТипЗатраты</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СуммаГрн</field>
+		</item>
+		<item xsi:type="SelectedItemField">
+			<field>СуммаДол</field>
+		</item>
+	</selection>
+	<dataParameters/>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>ПодразделениеName</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>Подразделение</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>ТипЗатраты</field>
+			<orderType>Asc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>СтатьяЗатрат</field>
+			<orderType>Asc</orderType>
+		</item>
+	</order>
+	<outputParameters/>
+	<item xsi:type="StructureItemTable">
+		<column>
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>ТипЗатраты</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+				<item xsi:type="GroupItemField">
+					<field>ТипЗатраты2</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</column>
+		<row>
+			<groupItems>
+				<item xsi:type="GroupItemField">
+					<field>ПодразделениеName</field>
+					<groupType>Items</groupType>
+					<periodAdditionType>None</periodAdditionType>
+					<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+					<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
+				</item>
+			</groupItems>
+			<order>
+				<item xsi:type="OrderItemAuto"/>
+			</order>
+			<selection>
+				<item xsi:type="SelectedItemAuto"/>
+			</selection>
+			<outputParameters/>
+		</row>
+		<selection>
+			<item xsi:type="SelectedItemAuto"/>
+		</selection>
+		<outputParameters/>
+	</item>
+</Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
+<SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema"/>
+</SchemaFile>

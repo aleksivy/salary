@@ -1,0 +1,7 @@
+﻿64684420-c5c6-44ae-9a55-fc113dbd8b37.0\info-->und\64684420-c5c6-44ae-9a55-fc113dbd8b37.0\info
+64684420-c5c6-44ae-9a55-fc113dbd8b37.0\text-->ObjectModule.bsl
+722eaebe-450e-4a43-9a92-9e4b511cef5c-->und\722eaebe-450e-4a43-9a92-9e4b511cef5c
+copyinfo-->und\copyinfo
+root-->und\root
+version-->und\version
+versions-->und\versions

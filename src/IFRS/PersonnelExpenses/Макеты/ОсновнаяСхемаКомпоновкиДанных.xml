@@ -189,44 +189,34 @@
 			<field xsi:type="DataSetFieldField">
 				<dataPath>СубконтоДт3</dataPath>
 				<field>СубконтоДт3</field>
-				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>СчетКт</dataPath>
 				<field>СчетКт</field>
-				<appearance/>
-				<inputParameters/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВалютаДт</dataPath>
 				<field>ВалютаДт</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>СубконтоКт3</dataPath>
 				<field>СубконтоКт3</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>СубконтоДт2</dataPath>
 				<field>СубконтоДт2</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НалоговоеНазначениеДт</dataPath>
 				<field>НалоговоеНазначениеДт</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ВалютаКт</dataPath>
 				<field>ВалютаКт</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>НалоговоеНазначениеКт</dataPath>
 				<field>НалоговоеНазначениеКт</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Признак</dataPath>
@@ -237,32 +227,26 @@
 						<d5p1:content>Признак</d5p1:content>
 					</d5p1:item>
 				</title>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>СубконтоКт2</dataPath>
 				<field>СубконтоКт2</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>СубконтоДт1</dataPath>
 				<field>СубконтоДт1</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>СубконтоКт1</dataPath>
 				<field>СубконтоКт1</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>СчетДт</dataPath>
 				<field>СчетДт</field>
-				<appearance/>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Организация</dataPath>
 				<field>Организация</field>
-				<appearance/>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<query>ВЫБРАТЬ
@@ -270,7 +254,7 @@
 	КурсыВалют.Период КАК ПериодНач,
 	МИНИМУМ(ЕСТЬNULL(КурсыВалют1.Период, &amp;КонецПериода)) КАК ПериодКон,
 	КурсыВалют.Курс / КурсыВалют.Кратность КАК Курс
-ПОМЕСТИТЬ КурсыВалют
+ПОМЕСТИТЬ _01_КурсыВалют
 ИЗ
 	РегистрСведений.КурсыВалютДляЗакрытия КАК КурсыВалют
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.КурсыВалютДляЗакрытия КАК КурсыВалют1
@@ -290,7 +274,7 @@
 ВЫБРАТЬ
 	Рег.Сотрудник,
 	Рег.ПодразделениеОрганизации
-ПОМЕСТИТЬ Подразделения
+ПОМЕСТИТЬ _02_Подразделения
 ИЗ
 	Справочник.СотрудникиОрганизаций КАК СотрудникиОрганизаций
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.РаботникиОрганизаций.СрезПоследних(&amp;КонецПериода, ) КАК Рег
@@ -325,10 +309,10 @@
 	Начисления.ПериодРегистрации,
 	Начисления.Регистратор КАК Документ,
 	Начисления.Результат КАК СуммаГрн
-ПОМЕСТИТЬ НачисленияВзносы
+ПОМЕСТИТЬ _03_НачисленияВзносы
 ИЗ
 	РегистрРасчета.ОсновныеНачисленияРаботниковОрганизаций КАК Начисления
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Подразделения КАК Подразделения
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ _02_Подразделения КАК Подразделения
 		ПО Начисления.Сотрудник = Подразделения.Сотрудник
 ГДЕ
 	Начисления.Активность
@@ -338,6 +322,7 @@
 	И НЕ Начисления.ВидРасчета = ЗНАЧЕНИЕ(ПланВидовРасчета.ОсновныеНачисленияОрганизаций.ОплатаПоСреднемуБЛ)
 	И НЕ Начисления.ВидРасчета = ЗНАЧЕНИЕ(ПланВидовРасчета.ОсновныеНачисленияОрганизаций.ОтпускПоБеременностиИРодам)
 	И НЕ Начисления.ВидРасчета = &amp;ПерсональныеРасходы
+	И НЕ Начисления.ВидРасчета = &amp;ДопБлага
 
 ОБЪЕДИНИТЬ ВСЕ
 
@@ -367,7 +352,7 @@
 	-Удержание.Результат
 ИЗ
 	РегистрРасчета.УдержанияРаботниковОрганизаций КАК Удержание
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Подразделения КАК Подразделения
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ _02_Подразделения КАК Подразделения
 		ПО Удержание.Сотрудник = Подразделения.Сотрудник
 ГДЕ
 	Удержание.Активность
@@ -407,13 +392,13 @@
 			ТОГДА ВЫРАЗИТЬ(НачисленияВзносы.СуммаГрн / 10 КАК ЧИСЛО(12, 2))
 		ИНАЧЕ ВЫРАЗИТЬ(НачисленияВзносы.СуммаГрн / КурсыВалют.Курс КАК ЧИСЛО(12, 2))
 	КОНЕЦ КАК СуммаДол
-ПОМЕСТИТЬ Врем1
+ПОМЕСТИТЬ _04_Врем1
 ИЗ
-	НачисленияВзносы КАК НачисленияВзносы
-		ЛЕВОЕ СОЕДИНЕНИЕ КурсыВалют КАК КурсыВалют
+	_03_НачисленияВзносы КАК НачисленияВзносы
+		ЛЕВОЕ СОЕДИНЕНИЕ _01_КурсыВалют КАК КурсыВалют
 		ПО НачисленияВзносы.ПериодРегистрации &gt;= КурсыВалют.ПериодНач
 			И НачисленияВзносы.ПериодРегистрации &lt; КурсыВалют.ПериодКон
-		ЛЕВОЕ СОЕДИНЕНИЕ Подразделения КАК Подразделения
+		ЛЕВОЕ СОЕДИНЕНИЕ _02_Подразделения КАК Подразделения
 		ПО НачисленияВзносы.Сотрудник = Подразделения.Сотрудник
 ;
 
@@ -427,7 +412,7 @@
 	Рег.Регистратор КАК Документ,
 	Рег.СуммаОборот КАК СуммаГрн,
 	Рег.ВалютнаяСуммаОборотДт КАК СуммаДол
-ПОМЕСТИТЬ Врем2
+ПОМЕСТИТЬ _05_Врем2
 ИЗ
 	РегистрБухгалтерии.Хозрасчетный.ОборотыДтКт(
 			&amp;НачалоПериода,
@@ -468,9 +453,9 @@
 	Врем.Документ,
 	Врем.СуммаГрн,
 	Врем.СуммаДол
-ПОМЕСТИТЬ Врем
+ПОМЕСТИТЬ _06_Врем
 ИЗ
-	Врем1 КАК Врем
+	_04_Врем1 КАК Врем
 
 ОБЪЕДИНИТЬ ВСЕ
 
@@ -485,7 +470,7 @@
 	Врем.СуммаГрн,
 	Врем.СуммаДол
 ИЗ
-	Врем2 КАК Врем
+	_05_Врем2 КАК Врем
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -503,7 +488,7 @@
 	Врем.СуммаГрн,
 	Врем.СуммаДол КАК СуммаДол
 ИЗ
-	Врем КАК Врем</query>
+	_06_Врем КАК Врем</query>
 		</dataSet>
 		<totalField>
 			<dataPath>СуммаГрн</dataPath>
@@ -529,6 +514,7 @@
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>false</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>КонецПериода</name>
@@ -546,6 +532,7 @@
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>false</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>Период</name>
@@ -563,6 +550,7 @@
 			</valueType>
 			<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 			<useRestriction>false</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<parameter>
 			<name>ПерсональныеРасходы</name>
@@ -577,6 +565,22 @@
 			</valueType>
 			<value xsi:nil="true"/>
 			<useRestriction>true</useRestriction>
+			<inputParameters/>
+		</parameter>
+		<parameter>
+			<name>ДопБлага</name>
+			<title xmlns:d4p1="http://v8.1c.ru/8.1/data/core" xsi:type="d4p1:LocalStringType">
+				<d4p1:item>
+					<d4p1:lang>ru</d4p1:lang>
+					<d4p1:content>Доп блага</d4p1:content>
+				</d4p1:item>
+			</title>
+			<valueType>
+				<TypeId xmlns="http://v8.1c.ru/8.1/data/core">bdb527bd-dc20-4ad7-91b2-7b0d01b20efc</TypeId>
+			</valueType>
+			<value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xsi:type="dcscor:DesignTimeValue"/>
+			<useRestriction>true</useRestriction>
+			<inputParameters/>
 		</parameter>
 		<settingsVariant>
 			<name xmlns="http://v8.1c.ru/8.1/data-composition-system/settings">ПоСотрудникам</name>
@@ -652,7 +656,6 @@
 			<field>СуммаДол</field>
 		</item>
 	</selection>
-	<dataParameters/>
 	<order>
 		<item xsi:type="OrderItemField">
 			<field>Сотрудник.NameFamily</field>
@@ -694,7 +697,6 @@
 			<selection>
 				<item xsi:type="SelectedItemAuto"/>
 			</selection>
-			<outputParameters/>
 			<item>
 				<groupItems>
 					<item xsi:type="GroupItemField">
@@ -711,7 +713,6 @@
 				<selection>
 					<item xsi:type="SelectedItemAuto"/>
 				</selection>
-				<outputParameters/>
 			</item>
 		</column>
 		<row>
@@ -737,12 +738,10 @@
 			<selection>
 				<item xsi:type="SelectedItemAuto"/>
 			</selection>
-			<outputParameters/>
 		</row>
 		<selection>
 			<item xsi:type="SelectedItemAuto"/>
 		</selection>
-		<outputParameters/>
 	</item>
 </Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -811,7 +810,6 @@
 			<selection>
 				<item xsi:type="SelectedItemAuto"/>
 			</selection>
-			<outputParameters/>
 			<item>
 				<groupItems>
 					<item xsi:type="GroupItemField">
@@ -828,7 +826,6 @@
 				<selection>
 					<item xsi:type="SelectedItemAuto"/>
 				</selection>
-				<outputParameters/>
 			</item>
 		</column>
 		<row>
@@ -847,7 +844,6 @@
 			<selection>
 				<item xsi:type="SelectedItemAuto"/>
 			</selection>
-			<outputParameters/>
 			<item>
 				<groupItems>
 					<item xsi:type="GroupItemField">
@@ -864,13 +860,11 @@
 				<selection>
 					<item xsi:type="SelectedItemAuto"/>
 				</selection>
-				<outputParameters/>
 			</item>
 		</row>
 		<selection>
 			<item xsi:type="SelectedItemAuto"/>
 		</selection>
-		<outputParameters/>
 	</item>
 </Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -939,7 +933,6 @@
 			<selection>
 				<item xsi:type="SelectedItemAuto"/>
 			</selection>
-			<outputParameters/>
 			<item>
 				<groupItems>
 					<item xsi:type="GroupItemField">
@@ -956,7 +949,6 @@
 				<selection>
 					<item xsi:type="SelectedItemAuto"/>
 				</selection>
-				<outputParameters/>
 			</item>
 		</column>
 		<row>
@@ -975,12 +967,10 @@
 			<selection>
 				<item xsi:type="SelectedItemAuto"/>
 			</selection>
-			<outputParameters/>
 		</row>
 		<selection>
 			<item xsi:type="SelectedItemAuto"/>
 		</selection>
-		<outputParameters/>
 	</item>
 </Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -1088,7 +1078,6 @@
 		<selection>
 			<item xsi:type="SelectedItemAuto"/>
 		</selection>
-		<outputParameters/>
 	</item>
 </Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -1157,7 +1146,6 @@
 			<selection>
 				<item xsi:type="SelectedItemAuto"/>
 			</selection>
-			<outputParameters/>
 			<item>
 				<groupItems>
 					<item xsi:type="GroupItemField">
@@ -1174,7 +1162,6 @@
 				<selection>
 					<item xsi:type="SelectedItemAuto"/>
 				</selection>
-				<outputParameters/>
 			</item>
 		</column>
 		<row>
@@ -1193,12 +1180,10 @@
 			<selection>
 				<item xsi:type="SelectedItemAuto"/>
 			</selection>
-			<outputParameters/>
 		</row>
 		<selection>
 			<item xsi:type="SelectedItemAuto"/>
 		</selection>
-		<outputParameters/>
 	</item>
 </Settings>﻿<?xml version="1.0" encoding="UTF-8"?>
 <SchemaFile xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
