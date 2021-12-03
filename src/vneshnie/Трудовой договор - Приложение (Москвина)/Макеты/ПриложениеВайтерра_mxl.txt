@@ -8,8 +8,8 @@ Salary and bonuses																															Заробітна  плата 
 																																																												
 The city of Kyiv																													ДатаПриложенияАнгл		місто Київ																													ДатаПриложения
 
-Enterprise with foreign investments "GLENCORE AGRICULTURE UKRAINE".																															Підприємство з іноземними інвестиціями «ГЛЕНКОР АГРІКАЛЧЕР УКРАЇНА»																													
-presented by the General director Balan Volodymyr, duly authorized by the owner (hereinafter referred to as the “Employer”) on one party, and																															в особі генерального директора Балана Володимира (надалі – РОБОТОДАВЕЦЬ), уповноваженого власником, з одного боку, та																													
+Enterprise with foreign investments "VITERRA UKRAINE".																															Підприємство з іноземними інвестиціями «ВАЙТЕРРА УКРАЇНА»																													
+presented the Chief Accountant Inna Moskvina, acting on the base of Power of attorney # 0201/11-MIM dated January 2, 2019 (hereinafter referred to as the “Employer”) on one party, and																															в особі головного бухгалтера Москвіної Інни Миколаївни, що діє на підставі Довіреності №0201/11-МIМ від 02.01.2019  (надалі – РОБОТОДАВЕЦЬ), з одного боку, та																													
 [ФИОАнгл]																															[ФИО],																													
 hereinafter referred to as the “EMPLOYEE” on the other party, have drawn this Addendum to the Labour Agreement # [ТабельныйНомер] as of [ДатаДоговораАнгл] as follows:																															надалі ПРАЦІВНИК, з другого боку, уклали цей Додаток до Трудового договору № [ТабельныйНомер] від [ДатаДоговора] про таке:																													
 To fix base salary as of [ДатаПриложенияАнгл] in the amount of [СуммаЧислом] hryvnia ([СуммаПрописьюАнгл] UAH) gross.																															Встановити Працівнику з [ДатаПриложения] посадовий оклад у розмірі [СуммаЧислом] гривень ([СуммаПрописью]) до вирахування податків і зборів.																													
@@ -22,5 +22,5 @@ This Addendum to the Agreement is executed in the Ukrainian and English language
 ПІДПИСИ / SIGNATURES :																																																												
 Роботодавець / Employer :																															Працівник / Employee :																													
 																																																												
-																	Балан Володимир / Balan Volodymyr																															[ФИО] / [ФИОАнгл]												
+																	Москвіна Інна Миколаївна / Moskvina Inna																															[ФИО] / [ФИОАнгл]												
 																																																												
